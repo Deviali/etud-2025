@@ -46,7 +46,7 @@ body{
     border: 1px solid ivory;
     padding: 0.25rem 1.5rem 0.5rem 1.5rem;
 }
-.button:hover{
+.button:hover,.button:focus{
     background-color: ivory;
     color: black;
     transition: all ease-in-out 0.3s;
