@@ -1,0 +1,166 @@
+.qr{
+    padding: 1rem;
+    padding-bottom: 10vh;
+}
+.qr-Navbar{
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-holders-qr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.qr-list{
+    padding: 2rem 5rem;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+}
+.qr-box{
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: ivory;
+    width: 100%;
+    height: 150px;
+    color: black;
+    cursor: pointer;
+}
+.qr-img{ 
+    flex-shrink: 0;
+    margin:0 5px;
+    border-radius: .5rem;
+    background-color: white;
+    height: 95%;
+    width: 33%;
+}
+.qr-img img{
+    border-radius: .5rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+.qr-text{  
+    margin: 0 .5em;
+}
+/* Highlight styles */
+.qr-highlight {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent backdrop */
+    z-index: 10;
+}
+
+.qr-highlight-box {
+    background-color: ivory;
+    color: black;
+    height: 75vh;
+    width: 40vw;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    position: relative;
+}
+.qr-highlight-box .qr-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.highlight-img {
+    width: 100%;
+    height: 45%;
+    padding-bottom: 1rem;
+}
+
+.highlight-img img {
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+
+
+/* Responsive adjustments for 950px and below */
+@media screen and (max-width: 1050px) {
+    .qr-list {
+        align-items: center;
+        grid-template-columns: 1fr;
+        padding: .5em; 
+    }
+
+    .button-holders-qr {
+        justify-content: flex-start; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        width: 100%; 
+        padding: 0 0rem; 
+        scrollbar-width: none !important; /* Firefox */
+        -ms-overflow-style: none !important; /* IE and Edge */
+    }
+    .button-holders-qr .button{
+        font-size: 16px;
+    }
+
+    .button {
+        flex: 0 0 calc(33.33% - 6.66px); 
+        box-sizing: border-box; 
+    }
+
+    .qr-highlight-box {
+        width: 80vw; 
+        height: 60vh; 
+    }
+    .qr-text p{
+        margin: 0.5em 0;
+        font-size: 15px;
+    }
+    .qr-highlight-box .qr-text p{
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import Home from './components/pages/Home';
+import Footer from './components/Footer';
+import Jazz from './components/pages/Jazz';
+import Menu from './components/pages/Menu';
+import OurStory from './components/pages/OurStory';
+import QrMenu from './components/pages/QrMenu';
+import Contact from './components/pages/Contact';
+import Location from './components/pages/Location';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <Router>
+        {/* <Navbar /> */}
+        <Routes>
+          <Route path='/' exact Component={Home} />
+          <Route path='/StoryOfJazz' exact Component={Jazz} />
+          <Route path='/About-us' exact Component={OurStory} />
+          <Route path='/Menu' exact Component={Menu} />
+          <Route path='/Qr-Menu' exact Component={QrMenu} />
+          <Route path='/contact' exact Component={Contact} />
+          <Route path='/location' exact Component={Location} />
+        </Routes>
+        <Footer />
+    </Router>
+   </>
   );
 }
 

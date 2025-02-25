@@ -1,0 +1,117 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .slider-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+    filter: brightness(70%); 
+    opacity: 0; /* Start faded out */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Fade in animation */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+  
+  .slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      linear-gradient(to top, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.7) 95%);
+    z-index: 0;
+    pointer-events: none;
+  }
+  
+  .slider-controls {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px; 
+    text-align: center;
+    align-items: center;
+  }
+  .main-text{
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    font-size: 2.5vw;
+    line-height: 50px;
+    letter-spacing: 1em;
+  }
+  
+  .arrow-btn {
+    background: transparent;
+    margin: 0 0.5rem;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(226, 226, 226);
+    font-size: 30px;
+    transition: color 0.3s ease;
+  }
+  
+  .arrow-btn:hover {
+    color: var(--color-gold); /* Optional hover effect */
+  }
+
+  .play-pause-btn {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(226, 226, 226);
+    font-size: 35px;
+  }
+  @media screen and (max-width:950px) {
+    .main-text{
+      font-size: 7.0vw;
+      line-height: 0;
+      width: auto;
+      bottom: 50%;
+      letter-spacing: 0.1em;
+
+    }
+  }

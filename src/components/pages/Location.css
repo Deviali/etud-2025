@@ -1,0 +1,46 @@
+.Location{
+    padding-bottom: 10vh;
+}
+.location-info{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    height: 90vh;
+    gap: 2vw;
+    padding: 5rem 2rem;
+}
+.location-info-pic{
+    width: 40vw;
+    height: 90%;
+}
+.location-info-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.location-info-text{
+    width: 30vw;
+    /* height: 50vh; */
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+@media screen and (max-width: 950px) {
+    .location-info{
+        flex-direction: column;
+        height: auto;
+    }
+    .location-info-text{
+        width: 100%;
+    }
+    .location-info-pic{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+

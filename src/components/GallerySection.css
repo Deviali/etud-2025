@@ -1,0 +1,33 @@
+.gallery-Section {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  }
+  
+  .gallery-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    top: 0 !important;
+  }
+  
+  .gallery-column img {
+    top: 0;
+    padding: 1rem 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+  }
+  @media screen and (max-width:950px) {
+  .gallery-Section{
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-column{
+    width: 100%;
+  }
+  }

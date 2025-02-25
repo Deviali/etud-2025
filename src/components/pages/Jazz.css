@@ -1,0 +1,59 @@
+.Jazz-container{
+    padding-bottom: 7vh;
+}
+
+.jazz-history{
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.jazz-jazzman{
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.jazzman-photo{
+    padding: 2rem;
+    width: 40%;
+    height: 500px;
+}
+.jazzman-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.jazzman-info{
+    flex: 1;
+    padding: 0 2rem;
+    text-align: center;
+}
+.jazzman-info p{
+    font-size: 22.5px;
+}
+@media screen and (max-width:950px) {
+    .h__catorze{
+        font-size: 25px;
+    }
+    .jazzman-info p{
+        font-size: 25px;
+    }
+    .jazz-jazzman{
+        flex-direction: column;
+    }
+    .jazzman-photo{
+        padding: 2rem 0;
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+
+
+
+
+
+

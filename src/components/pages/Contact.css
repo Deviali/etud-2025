@@ -1,0 +1,12 @@
+.Contacts{
+    padding-bottom: 10vh;
+}
+.contacts-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+

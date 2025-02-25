@@ -1,0 +1,44 @@
+.Our-story{
+    padding-bottom: 7vh;
+}
+.story-info{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story-info p{
+    width: 30%;
+    text-align: center;
+}
+.story-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+.story-text p{
+    width: 70%;
+    text-align: center;
+}
+@media screen and (max-width:950px) {
+    .story-info p{
+    width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
