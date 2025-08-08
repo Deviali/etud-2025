@@ -9,6 +9,10 @@
     align-items: center;
     gap: .5em;
 }
+.active-button{
+    background-color: ivory;
+    color: black;
+}
 .row{
     display: flex;
     justify-content: center;

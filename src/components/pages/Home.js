@@ -35,24 +35,26 @@ function Home() {
         <img src={images.etudlogo} alt="Etuds Logo" />
       </div>
       <div className="home-info fadable"  ref={addToRefs}>
-          <p className="h__catorze">Best Jazz bar of Baku</p>
-          <p className="h__catorze">Hardcore Party Baby</p>
+          <p className="h__catorze">No Gimmicks. No Noise. Just Quality Sound</p>
+          <p className="h__catorze">Good Drinks Good  Food, And A Vibe You Can't Fake.</p>
       </div>
       <SectionLR 
-      title="title testing"
-      desc="Under text for section"
+      title="ETUD BAKU"
+      desc="Since 2016, ETUD has been Baku’s hidden corner for those who value mood, taste, and sound.Music lives at the heart of ETUD — jazz, soul, funk, rock, and more — but what makes this place special runs deeper than the setlist. It’s in the atmosphere, the conversations, the feeling that lingers whether the stage is lit or not."
       imgsrc={images.barfiller1}
       />
       <DynamicSection 
       className='fadable'
-      title="title testing 2"
-      desc="Under text for section 2"
+      title=""
+      desc="Tucked underground and smoke-free, ETUD is shaped by intention. The lighting is low, the drinks are thoughtful, and the energy is steady. The bar offers a short, curated menu of cocktails, wines, and bar food — simple, elegant, and satisfying.
+
+      It’s not just where music happens. It’s where time slows down a little."
       imgsrc={images.barfiller2}
       />
       <SectionLR
       className='fadable' 
-      title="title testing 3"
-      desc="Under text for section 3"
+      title=""
+      desc="The focus has always been on doing things with care. From the music to the drinks, everything is chosen and served with intention. The bar offers a short but thoughtful menu, and the room is shaped for those who pay attention — to details, to feeling, to presence."
       imgsrc={images.barfiller3}
       />
       <div className="home-tomenu fadable"  ref={addToRefs}>

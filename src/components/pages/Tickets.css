@@ -1,0 +1,135 @@
+.Tickets {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      linear-gradient(to top, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.7) 95%),
+      url('../../assets/Etud1.jpeg');
+      background-size: cover;
+    background-position: center;
+    padding-bottom: 7vh;
+    min-height: 100vh;
+    background-color: #1a1a1a; /* Matches the dark theme from Home.css */
+  }
+  
+  .tickets-header {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tickets-header h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .tickets-form {
+    
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tickets-form form {
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-family: "Catorze", sans-serif; /* Match typography from Home */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .form-group input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  .form-group p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .form-group input[type="number"] {
+    -webkit-appearance: none; /* Chrome, Safari, newer Edge */
+    -moz-appearance: textfield; /* Firefox */
+    appearance: none; /* Standard */
+  }
+  
+  /* Remove spinners for Chrome, Safari, Edge */
+  .form-group input[type="number"]::-webkit-inner-spin-button,
+  .form-group input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .button-tickets {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+    background: #d4a373; /* Match button style from Home */
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background: #b8860b;
+  }
+  
+  .warning {
+    color: #ff4d4d;
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 650px) {
+    .tickets-header {
+      height: 40vh;
+    }
+  
+    .tickets-header h1 {
+      font-size: 2rem;
+    }
+  
+    .tickets-form {
+      padding: 1rem 2rem;
+    }
+  
+    .tickets-form form {
+      padding: 1.5rem;
+    }
+  }

@@ -15,6 +15,9 @@ import special2 from '../assets/special02.jpeg';
 import mealvideo from '../assets/meal.mp4';
 import map from '../assets/dantenycmapPOSTCARD.jpg';
 import whiteicon from '../assets/icons8-marker-100.png';
+import Etud1 from '../assets/Etud1.jpeg';
+import Etud2 from '../assets/Etud2.jpeg';
+import Etud3 from '../assets/Etud3.jpeg';
 
 export default {
     etudlogo,
@@ -34,4 +37,7 @@ export default {
     mealvideo,
     map,
     whiteicon,
+    Etud1,
+    Etud2,
+    Etud3,
 };

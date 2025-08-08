@@ -25,22 +25,23 @@ function Location() {
           <div className="location-info-text">
             <p className="h__catorze">Hours & Location</p>
             <p className="p__catorze">
-             79-81 Macdougal St,<br/>
-             New York, NY 10012<br/>
-             (212) 982-5275</p>
-            <p className="p__catorze">Join us at Caffe Dante on Macdougal Street for indoor & outdoor dining from 12pm weekdays & 10am Saturday and Sunday, serving food until 11 pm Sunday to Wednesday and 12 am Thursdays to Saturdays. Reservations are suggested (through Resy) and walk-ins are welcomed.</p>
-            <p className="p__catorze">79-81 Macdougal St, Greenwich Village, New York 10012</p>
-            <p className="p__catorze">Dante West Village  offers indoor and outdoor seating daily from 10am to 12pm for breakfast and all day dining until 12am Monday through Sunday. Brunch is served from 10am- 4pm on the weekends and public holidays, with dinner service commencing at 5pm Saturday and Sunday. Reservations for tables are suggested for breakfast, lunch and dinner (through Resy) and walk-ins are welcomed. We invite you to join us on a first come, first serve basis for cocktails at the bar. </p>
-            <p className="p__catorze">551 Hudson St ( corner of Perry), West Village, New York 10014</p>
-          
+            Address:<br/>
+             İslam Səfərli 16, Baku, Azerbaijan,<br/>
+             Working Hours:<br/>
+              17:00 – 01:00 (Sunday to Thursday)<br/>
+              18:00 – 02:00 (Friday & Saturday)<br/></p>
+            <p className="p__catorze">ETUD is located in the heart of Baku — tucked just enough out of sight to feel like a hidden spot.</p>
+            <p className="p__catorze">Live music usually starts after 21:00</p>
+            <p className="p__catorze">The entrance is half below street level. Look for the black door, the quiet steps, and the sound beneath. </p>
+         
           </div>
           <div className="location-info-pic">
-            <img src={images.map} alt="pic of etud" />
+          <Maps />
           </div>
         </div>
-        <div className="location-map-container">
+        {/* <div className="location-map-container">
         <Maps />
-        </div>
+        </div> */}
     </div>
   )
 }

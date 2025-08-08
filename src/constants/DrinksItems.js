@@ -1,827 +1,903 @@
-const Whiskey=[ 
-  {nameofArray:'Whiskey'},
-
+const Whiskey = [
+  { nameofArray: "Whiskey" },
   {
-    title: "JW Black Label",
-    title_az: "JW Qara Etiket",
-    price: "8/112 AZN",
-    desc_az: "Viskiyin premium növü, qara etiket",
-    desc_eng: "premium whiskey, black label"
-  },
-  {
-    title: "JW Red Label",
-    title_az: "JW Qırmızı Etiket",
-    price: "7/90 AZN",
-    desc_az: "Viskiyin premium növü, qırmızı etiket",
-    desc_eng: "premium whiskey, red label"
-  },
-  {
-    title: "Jack Daniel's Old No. 7",
-    title_az: "Jack Daniel's Kohen No. 7",
-    price: "8/112 AZN",
-    desc_az: "Amerikan viskiy, klasik nömrə 7",
-    desc_eng: "American whiskey, classic No. 7"
-  },
-  {
-    title: "Jack Daniel's Tennessee Honey",
-    title_az: "Jack Daniel's Tennessee Balı",
-    price: "8 AZN",
-    desc_az: "Tennessee viskiy, bal ilə tatlandırılmış",
-    desc_eng: "Tennessee whiskey, honey-flavored"
+    title: "Jack Daniel's Old N.7",
+    title_az: "Jack Daniel's Old N.7",
+    price: "8.00 / 120.00 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Jack Daniel's Tennessee Apple",
-    title_az: "Jack Daniel's Tennessee Alma",
+    title_az: "Jack Daniel's Tennessee Apple",
     price: "8 AZN",
-    desc_az: "Tennessee viskiy, alma ilə tatlandırılmış",
-    desc_eng: "Tennessee whiskey, apple-flavored"
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Jack Daniel's Tennessee Honey",
+    title_az: "Jack Daniel's Tennessee Honey",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Jack Daniel's Gentleman Jack",
+    title_az: "Jack Daniel's Gentleman Jack",
+    price: "10 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Woodford Reserve",
+    title_az: "Woodford Reserve",
+    price: "10 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Chivas Regal 12 Y.O.",
     title_az: "Chivas Regal 12 İllik",
-    price: "8 AZN",
-    desc_az: "12 illik İskoç viskiy",
-    desc_eng: "12-year-old Scotch whiskey"
+    price: "9 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Chivas Regal 18 Y.O.",
     title_az: "Chivas Regal 18 İllik",
-    price: "12 AZN",
-    desc_az: "18 illik İskoç viskiy",
-    desc_eng: "18-year-old Scotch whiskey"
+    price: "14 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Glenfiddich 12 Y.O.",
     title_az: "Glenfiddich 12 İllik",
-    price: "10 AZN",
-    desc_az: "12 illik İskoç single malt viskiy",
-    desc_eng: "12-year-old Scotch single malt whiskey"
+    price: "11 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Singleton",
+    title_az: "Singleton",
+    price: "9 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Jameson",
+    title_az: "Jameson",
+    price: "8.00 / 120.00 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "JW Black Label",
+    title_az: "JW Black Label",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "JW Red Label",
+    title_az: "JW Red Label",
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Jim Beam",
     title_az: "Jim Beam",
     price: "7 AZN",
-    desc_az: "Amerikan burbon viskiy",
-    desc_eng: "American bourbon whiskey"
-  },]; 		
+    desc_az: "",
+    desc_eng: "",
+  },
+];
 
-const Tequila=[  {nameofArray:'Tequila'},
-{
-    title: "Sierra Blanca",
-    title_az: "Sierra Blanca",
+const Tequila = [
+  { nameofArray: "Tequila" },
+  {
+    title: "Sierra",
+    title_az: "Sierra",
     price: "6 AZN",
-    desc_az: "Ağ tekila",
-    desc_eng: "white tequila"
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Olmeca Blanco",
+    title_az: "Olmeca Blanco",
+    price: "6 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Olmeca Gold",
-    title_az: "Olmeca Qızıl",
-    price: "6 AZN",
-    desc_az: "Qızıl tekila",
-    desc_eng: "gold tequila"
+    title_az: "Olmeca Gold",
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Patron",
     title_az: "Patron",
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
+
+const Aperitif = [
+  { nameofArray: "Aperitif" },
+  {
+    title: "Aperol",
+    title_az: "Aperol",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Campari",
+    title_az: "Campari",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
+
+const Gin = [
+  { nameofArray: "Gin" },
+  {
+    title: "Gin Mare",
+    title_az: "Gin Mare",
     price: "10 AZN",
-    desc_az: "Premium tekila",
-    desc_eng: "premium tequila"
-  },];	
-
-const Aperitif=[  {nameofArray:'Aperitif'},
-
-    {
-        title: "Aperol",
-        title_az: "Aperol",
-        price: "7 AZN",
-        desc_az: "İtalyan aperitivi, portakal tatlılığı",
-        desc_eng: "Italian aperitif, orange flavor"
-      },
-      {
-        title: "Campari",
-        title_az: "Campari",
-        price: "7 AZN",
-        desc_az: "İtalyan bitter likörü",
-        desc_eng: "Italian bitter liqueur"
-      },
-];		
-
-const Gin=[ {nameofArray:'Gin'},{
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
     title: "Gordon's",
     title_az: "Gordon's",
-    price: "6 AZN",
-    desc_az: "Premium cin",
-    desc_eng: "premium gin"
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Bombay Sapphire",
-    title_az: "Bombay Safir",
-    price: "8 AZN",
-    desc_az: "Premium safir cin",
-    desc_eng: "premium sapphire gin"
-  },];		
+    title_az: "Bombay Sapphire",
+    price: "9 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
 
-const Liqueur=[{nameofArray:'Liqueur'},{
-    title: "Jägermeister",
-    title_az: "Jägermeister",
+const Liqueur = [
+  { nameofArray: "Liqueur" },
+  {
+    title: "Jagermeister",
+    title_az: "Jagermeister",
     price: "6 AZN",
-    desc_az: "Alman bitki likörü",
-    desc_eng: "German herbal liqueur"
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Baileys",
     title_az: "Baileys",
-    price: "7 AZN",
-    desc_az: "İrlandiya krema likörü",
-    desc_eng: "Irish cream liqueur"
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Cointreau",
     title_az: "Cointreau",
-    price: "7 AZN",
-    desc_az: "Portakal likörü",
-    desc_eng: "orange liqueur"
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Amaretto",
     title_az: "Amaretto",
-    price: "7 AZN",
-    desc_az: "Badem likörü",
-    desc_eng: "almond liqueur"
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Kahlua",
     title_az: "Kahlua",
-    price: "7 AZN",
-    desc_az: "Kofe likörü",
-    desc_eng: "coffee liqueur"
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Sambuca",
     title_az: "Sambuca",
-    price: "7 AZN",
-    desc_az: "Anyanık likörü",
-    desc_eng: "anise liqueur"
+    price: "10 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Xenta Absenta",
     title_az: "Xenta Absenta",
-    price: "8 AZN",
-    desc_az: "Absint likörü",
-    desc_eng: "absinthe liqueur"
-  },];		
+    price: "10 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
 
-const Vermouth=[{nameofArray:'Vermouth'},{
+const Vermouth = [
+  { nameofArray: "Vermouth" },
+  {
+    title: "Martini Fiero",
+    title_az: "Martini Fiero",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
     title: "Martini Bianco",
-    title_az: "Martini Ağ",
-    price: "7 AZN",
-    desc_az: "Ağ vermut",
-    desc_eng: "white vermouth"
+    title_az: "Martini Bianco",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Martini Rosato",
-    title_az: "Martini Roza",
-    price: "7 AZN",
-    desc_az: "Roza vermut",
-    desc_eng: "rose vermouth"
+    title_az: "Martini Rosato",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Martini Rosso",
-    title_az: "Martini Qırmızı",
-    price: "7 AZN",
-    desc_az: "Qırmızı vermut",
-    desc_eng: "red vermouth"
-  },];		
-
-const Vodka	=[{nameofArray:'Vodka'},{
-    title: "Ketel One",
-    title_az: "Ketel One",
-    price: "7/90 AZN",
-    desc_az: "Holland votkası",
-    desc_eng: "Dutch vodka"
+    title_az: "Martini Rosso",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
+];
+
+const Vodka = [
+  { nameofArray: "Vodka" },
   {
     title: "Nemiroff",
     title_az: "Nemiroff",
-    price: "5/70 AZN",
-    desc_az: "Ukrayna votkası",
-    desc_eng: "Ukrainian vodka"
+    price: "5.00 / 70.00 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Absolut",
     title_az: "Absolut",
-    price: "6/90 AZN",
-    desc_az: "İsveç votkası",
-    desc_eng: "Swedish vodka"
+    price: "6.00 / 90.00 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Finlandia",
     title_az: "Finlandia",
-    price: "6/90 AZN",
-    desc_az: "Fin votkası",
-    desc_eng: "Finnish vodka"
-  },];
+    price: "6.00 / 90.00 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
 
-const Rum=[{nameofArray:'Rums'}, {
+const Rum = [
+  { nameofArray: "Rums" },
+  {
     title: "Captain Morgan Gold",
-    title_az: "Captain Morgan Qızıl",
-    price: "6 AZN",
-    desc_az: "Qızıl rom, premium",
-    desc_eng: "gold rum, premium"
+    title_az: "Captain Morgan Gold",
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Captain Morgan Jamaica",
     title_az: "Captain Morgan Jamaica",
-    price: "6 AZN",
-    desc_az: "Jamaika romu",
-    desc_eng: "Jamaican rum"
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Bacardi",
     title_az: "Bacardi",
-    price: "6 AZN",
-    desc_az: "Küba romu",
-    desc_eng: "Cuban rum"
-  },];
-const BEERS=[ {nameofArray:'Beers'},{
-    title: "Xirdalan Draft (Filtered/Unfiltered)",
-    title_az: "Xirdalan Çəkmə (Filtrli/Filtrsiz)",
-    price: "4 AZN",
-    desc_az: "Xirdalan lokul birası, filtrli və ya filtrlisiz",
-    desc_eng: "Xirdalan draft beer, filtered or unfiltered"
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
+
+const BEERS = [
+  { nameofArray: "Beers" },
+  {
+    title: "Blanc Kronenburg",
+    title_az: "Blanc Kronenburg",
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Xirdalan Bottle (Filtered/Unfiltered)",
-    title_az: "Xirdalan Şüşə (Filtrli/Filtrsiz)",
+    title: "Xirdalan Draft (filtered)",
+    title_az: "Xirdalan Çəkmə (Filtrli)",
+    price: "4.5 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Xirdalan Draft (unfiltered)",
+    title_az: "Xirdalan Çəkmə (Filtrsiz)",
     price: "5 AZN",
-    desc_az: "Xirdalan şüşə birası, filtrli və ya filtrlisiz",
-    desc_eng: "Xirdalan bottled beer, filtered or unfiltered"
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Heineken",
-    title_az: "Heineken",
-    price: "7 AZN",
-    desc_az: "Holland birası",
-    desc_eng: "Dutch beer"
-  },
-  {
-    title: "Corona",
-    title_az: "Corona",
-    price: "7 AZN",
-    desc_az: "Meksika birası",
-    desc_eng: "Mexican beer"
-  },
-  {
-    title: "Erdinger",
-    title_az: "Erdinger",
-    price: "8 AZN",
-    desc_az: "Alman buğda birası",
-    desc_eng: "German wheat beer"
+    title: "Xirdalan Bottle",
+    title_az: "Xirdalan Şüşə",
+    price: "6 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Guinness",
     title_az: "Guinness",
-    price: "9 AZN",
-    desc_az: "İrlandiya qara birası",
-    desc_eng: "Irish stout beer"
+    price: "10 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Somersby",
-    title_az: "Somersby",
-    price: "7 AZN",
-    desc_az: "Sitruslu elma birası",
-    desc_eng: "citrus apple cider"
+    title: "Erdinger",
+    title_az: "Erdinger",
+    price: "9 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Corona",
+    title_az: "Corona",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Heineken",
+    title_az: "Heineken",
+    price: "8 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Tuborg",
     title_az: "Tuborg",
-    price: "6 AZN",
-    desc_az: "Danimarka birası",
-    desc_eng: "Danish beer"
-  },
-  {
-    title: "Starpraha (Light/Dark)",
-    title_az: "Starpraha (Ağır/Qaranlıq)",
-    price: "5 AZN",
-    desc_az: "Çex birası, ağıq və ya qaranlıq",
-    desc_eng: "Czech beer, light or dark"
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Efes Draft",
     title_az: "Efes Çəkmə",
-    price: "5 AZN",
-    desc_az: "Türk lokul birası",
-    desc_eng: "Turkish draft beer"
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Efes Pilsen",
-    title_az: "Efes Pilsen",
-    price: "5 AZN",
-    desc_az: "Türk pilsen birası",
-    desc_eng: "Turkish pilsner beer"
-  },];
-
-const SOFTS=[{nameofArray:'Soft Drinks'}, {
-    title: "Red Bull",
-    title_az: "Red Bull",
+    title: "Efes Zero",
+    title_az: "Efes Zero",
     price: "6 AZN",
-    desc_az: "Enerji içki",
-    desc_eng: "energy drink"
+    desc_az: "",
+    desc_eng: "",
+  },
+];
+
+const SOFTS = [
+  { nameofArray: "Soft Drinks" },
+  {
+    title: "Redbull",
+    title_az: "Redbull",
+    price: "6 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Tonic",
     title_az: "Tonic",
+    price: "6 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Coca Cola",
+    title_az: "Coca Cola",
     price: "5 AZN",
-    desc_az: "Tonic su",
-    desc_eng: "tonic water"
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Cola",
-    title_az: "Kola",
-    price: "4 AZN",
-    desc_az: "Kola içki",
-    desc_eng: "cola drink"
+    title: "Juice / Fresh Juice",
+    title_az: "Şirə / Təzə Şirə",
+    price: "4.00 / 8.00 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Juice / Meyv Çayı",
-    title_az: "Şirə / Meyv Çayı",
-    price: "4.8 AZN",
-    desc_az: "Fərqli meyve şirəsi və çayı",
-    desc_eng: "various fruit juice and tea"
-  },
-  {
-    title: "Ice Tea / Soyuq Çay",
-    title_az: "Müzə Çay / Soyuq Çay",
-    price: "4.8 AZN",
-    desc_az: "Soyuq çay, buz ilə",
-    desc_eng: "iced tea, with ice"
+    title: "Ice Tea",
+    title_az: "Soyuq Çay",
+    price: "5 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Water / Su",
     title_az: "Su",
     price: "3 AZN",
-    desc_az: "Təzə su",
-    desc_eng: "fresh water"
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Tea / Çay",
     title_az: "Çay",
     price: "5 AZN",
-    desc_az: "Təzə çay",
-    desc_eng: "fresh tea"
-  },];
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Espresso",
+    title_az: "Espresso",
+    price: "5 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Americano",
+    title_az: "Americano",
+    price: "6 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Cappuccino",
+    title_az: "Cappuccino",
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
 
-const Wines=[{nameofArray:'Wines'},{
+const Wines = [
+  { nameofArray: "Wines" },
+  {
     title: "Meysari Maxxani Premium (Red dry)",
     title_az: "Meysari Maxxani Premium (Qırmızı quru)",
     price: "39.9 AZN",
     desc_az: "Qırmızı quru şərab, premium",
-    desc_eng: "red dry wine, premium"
+    desc_eng: "red dry wine, premium",
   },
   {
-    title: "Meysari Marcan (Red dry - Qırmızı quru)",
+    title: "Meysari Marcan (Red dry)",
     title_az: "Meysari Marcan (Qırmızı quru)",
     price: "34.9 AZN",
     desc_az: "Qırmızı quru şərab",
-    desc_eng: "red dry wine"
+    desc_eng: "red dry wine",
   },
   {
-    title: "Meysari Safdar (White dry - Ağ quru)",
+    title: "Meysari Safdar (White dry)",
     title_az: "Meysari Safdar (Ağ quru)",
     price: "34.9 AZN",
     desc_az: "Ağ quru şərab",
-    desc_eng: "white dry wine"
+    desc_eng: "white dry wine",
   },
   {
-    title: "Meysari Sanam (Rose dry - Çəhrayı quru)",
+    title: "Meysari Sanam (Rose dry)",
     title_az: "Meysari Sanam (Çəhrayı quru)",
     price: "34.9 AZN",
     desc_az: "Çəhrayı quru şərab",
-    desc_eng: "rose dry wine"
+    desc_eng: "rose dry wine",
   },
   {
-    title: "Chabiant (Red dry - Qırmızı quru)",
+    title: "Chabiant (Red dry)",
     title_az: "Chabiant (Qırmızı quru)",
     price: "6/26 AZN",
     desc_az: "Qırmızı quru şərab",
-    desc_eng: "red dry wine"
+    desc_eng: "red dry wine",
   },
   {
-    title: "Chabiant (White dry - Ağ quru)",
+    title: "Chabiant (White dry)",
     title_az: "Chabiant (Ağ quru)",
     price: "6/26 AZN",
     desc_az: "Ağ quru şərab",
-    desc_eng: "white dry wine"
+    desc_eng: "white dry wine",
   },
   {
     title: "Chabiant Saperavi - Cabernet sauvignon",
     title_az: "Chabiant Saperavi - Cabernet sauvignon",
     price: "39.9 AZN",
     desc_az: "Saperavi və Cabernet sauvignon qarışıq şərabı",
-    desc_eng: "Saperavi and Cabernet Sauvignon blend wine"
+    desc_eng: "Saperavi and Cabernet Sauvignon blend wine",
   },
   {
     title: "Chabiant Vino Nuovo",
     title_az: "Chabiant Vino Nuovo",
     price: "39.9 AZN",
     desc_az: "Yeni şərab, qırmızı",
-    desc_eng: "new wine, red"
+    desc_eng: "new wine, red",
   },
   {
-    title: "Savalan Merlot (Red semi - Qırmızı semi)",
+    title: "Savalan Merlot (Red semi)",
     title_az: "Savalan Merlot (Qırmızı semi)",
     price: "6/28 AZN",
     desc_az: "Qırmızı semi şərab, Merlot",
-    desc_eng: "red semi wine, Merlot"
+    desc_eng: "red semi wine, Merlot",
   },
   {
-    title: "Savalan Merlot (Red dry - Qırmızı quru)",
+    title: "Savalan Merlot (Red dry)",
     title_az: "Savalan Merlot (Qırmızı quru)",
     price: "6/28 AZN",
     desc_az: "Qırmızı quru şərab, Merlot",
-    desc_eng: "red dry wine, Merlot"
+    desc_eng: "red dry wine, Merlot",
   },
   {
-    title: "Hillside Prestige (White Dry - Ağ quru)",
+    title: "Hillside Prestige (White Dry)",
     title_az: "Hillside Prestige (Ağ quru)",
     price: "6/28 AZN",
     desc_az: "Ağ quru şərab, premium",
-    desc_eng: "white dry wine, premium"
+    desc_eng: "white dry wine, premium",
   },
   {
-    title: "Hillside Curve (Red dry - Qırmızı quru)",
+    title: "Hillside Curve (Red dry)",
     title_az: "Hillside Curve (Qırmızı quru)",
     price: "6/28 AZN",
     desc_az: "Qırmızı quru şərab",
-    desc_eng: "red dry wine"
+    desc_eng: "red dry wine",
   },
   {
-    title: "Hillside Prestige (Rose Dry - Çəhrayı quru)",
+    title: "Hillside Prestige (Rose Dry)",
     title_az: "Hillside Prestige (Çəhrayı quru)",
     price: "28 AZN",
     desc_az: "Çəhrayı quru şərab, premium",
-    desc_eng: "rose dry wine, premium"
+    desc_eng: "rose dry wine, premium",
   },
   {
     title: "Aggo Red (Pomegranate)",
     title_az: "Aggo Qırmızı (Nar)",
     price: "4/16 AZN",
     desc_az: "Nar əsasında hazırlanmış qırmızı şərab",
-    desc_eng: "pomegranate-based red wine"
+    desc_eng: "pomegranate-based red wine",
   },
   {
     title: "Sangria Premium",
     title_az: "Sangria Premium",
     price: "6/16 AZN",
     desc_az: "Premium sangria, meyveli karışım",
-    desc_eng: "premium sangria, fruity mix"
-  },];
-	
-const Prosecco=[{nameofArray:'Prosecco or Sparkling Wines'},{
+    desc_eng: "premium sangria, fruity mix",
+  },
+];
+
+const Prosecco = [
+  { nameofArray: "Prosecco or Sparkling Wines" },
+  {
     title: "Astoria",
     title_az: "Astoria",
     price: "65 AZN",
     desc_az: "İtalyan köpüklü şərab, premium",
-    desc_eng: "Italian sparkling wine, premium"
+    desc_eng: "Italian sparkling wine, premium",
   },
   {
     title: "Cinzano",
     title_az: "Cinzano",
     price: "70 AZN",
     desc_az: "İtalyan köpüklü şərab, premium",
-    desc_eng: "Italian sparkling wine, premium"
-  },];	
+    desc_eng: "Italian sparkling wine, premium",
+  },
+];
 
-const Shots=[{nameofArray:'Shots for the Table'}, {
-    title: "ETUD Shots",
-    title_az: "ETUD Şotlar",
-    price: "15/20 AZN",
-    desc_az: "ETUD xüsusi alkollü şotlar",
-    desc_eng: "ETUD special alcoholic shots 8"
-  },
-  {
-    title: "DouDou",
-    title_az: "DouDou",
-    price: "7 AZN",
-    desc_az: "Fərqli alkollü içki şotu",
-    desc_eng: "various alcoholic shot"
-  },
-  {
-    title: "B-52",
-    title_az: "B-52",
-    price: "8 AZN",
-    desc_az: "Katlı alkollü kokteyl şotu",
-    desc_eng: "layered alcoholic cocktail shot"
-  },
-  {
-    title: "B-65",
-    title_az: "B-65",
-    price: "9 AZN",
-    desc_az: "Katlı alkollü kokteyl şotu",
-    desc_eng: "layered alcoholic cocktail shot"
-  },]
-
-const Coktails=[{nameofArray:'Cocktails'}, {
-    title: "Martini Tonic (Fiero, Bianco, Rosato)",
-    title_az: "Martini Tonic (Fiero, Bianco, Rosato)",
-    price: "12 AZN",
-    desc_az: "Martini ilə tonik karışımı, fərqli növlər",
-    desc_eng: "Martini with tonic mix, different varieties"
-  },
-  {
-    title: "Barnard's Special",
-    title_az: "Barnard's Xüsusi",
-    price: "15 AZN",
-    desc_az: "Xüsusi alkollü kokteyl",
-    desc_eng: "special alcoholic cocktail"
-  },
+const Coktails = [
+  { nameofArray: "Cocktails" },
   {
     title: "Aperol Spritz",
     title_az: "Aperol Spritz",
-    price: "13/15 AZN",
-    desc_az: "Aperol, prosecco, soda karışımı",
-    desc_eng: "Aperol, prosecco, soda mix"
+    price: "15 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Long Island",
-    title_az: "Long Island",
-    price: "14/16 AZN",
-    desc_az: "Uzun ada kokteyli, fərqli alkollar",
-    desc_eng: "Long Island cocktail, various alcohols"
+    title: "Long Island (cola/energy drink)",
+    title_az: "Long Island (kola/enerji içkisi)",
+    price: "15.00 / 17.00 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Martini Tonic",
+    title_az: "Martini Tonic",
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Mimosa",
     title_az: "Mimosa",
-    price: "11/12 AZN",
-    desc_az: "Şampanya və portakal şirəsi karışımı",
-    desc_eng: "champagne and orange juice mix"
-  },
-  {
-    title: "Bellini",
-    title_az: "Bellini",
-    price: "11/12 AZN",
-    desc_az: "Şampanya və ərik şirəsi karışımı",
-    desc_eng: "champagne and peach juice mix"
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Gin & Tonic",
     title_az: "Cin və Tonic",
-    price: "10/11 AZN",
-    desc_az: "Cin və tonik su karışımı",
-    desc_eng: "gin and tonic water mix"
-  },
-  {
-    title: "Gin Fizz",
-    title_az: "Cin Fizz",
-    price: "10/11 AZN",
-    desc_az: "Cin, limon, şəkər, soda karışımı",
-    desc_eng: "gin, lemon, sugar, soda mix"
-  },
-  {
-    title: "Rum & Tonic",
-    title_az: "Rum və Tonic",
-    price: "10/11 AZN",
-    desc_az: "Rum və tonik su karışımı",
-    desc_eng: "rum and tonic water mix"
+    price: "11 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Cuba Libre",
     title_az: "Cuba Libre",
-    price: "10/11 AZN",
-    desc_az: "Rum, kola, limon karışımı",
-    desc_eng: "rum, cola, lime mix"
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Mojito",
     title_az: "Mojito",
-    price: "10/11 AZN",
-    desc_az: "Rum, nanə, limon, şəkər, soda karışımı",
-    desc_eng: "rum, mint, lime, sugar, soda mix"
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Tequila Sunrise",
-    title_az: "Tequila Günəş Doğumu",
-    price: "10/11 AZN",
-    desc_az: "Tequila, portakal şirəsi, grenadin karışımı",
-    desc_eng: "tequila, orange juice, grenadine mix"
+    title_az: "Tequila Sunrise",
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Bloody Mary",
     title_az: "Bloody Mary",
-    price: "11/13 AZN",
-    desc_az: "Vodka, domates şirəsi, limon, baharatlar",
-    desc_eng: "vodka, tomato juice, lime, spices"
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Blue Lagoon",
+    title_az: "Blue Lagoon",
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Sex on the Beach",
-    title_az: "Plajda Sex",
-    price: "11/12 AZN",
-    desc_az: "Vodka, portakal şirəsi, kranberi şirəsi",
-    desc_eng: "vodka, orange juice, cranberry juice"
+    title_az: "Sex on the Beach",
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Piña Colada",
-    title_az: "Piña Colada",
-    price: "11/12 AZN",
-    desc_az: "Rum, ananas şirəsi, kokos südü",
-    desc_eng: "rum, pineapple juice, coconut milk"
+    title: "Pina Colada",
+    title_az: "Pina Colada",
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Dry Martini",
-    title_az: "Quru Martini",
-    price: "11/12 AZN",
-    desc_az: "Cin, quru vermut",
-    desc_eng: "gin, dry vermouth"
+    title_az: "Dry Martini",
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Margarita",
     title_az: "Margarita",
-    price: "11/12 AZN",
-    desc_az: "Tequila, limon, portakal likörü",
-    desc_eng: "tequila, lime, orange liqueur"
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Cosmopolitan",
     title_az: "Cosmopolitan",
-    price: "11/12 AZN",
-    desc_az: "Vodka, kranberi şirəsi, portakal likörü",
-    desc_eng: "vodka, cranberry juice, orange liqueur"
-  },
-  {
-    title: "Sidecar",
-    title_az: "Sidecar",
-    price: "11/12 AZN",
-    desc_az: "Konak, portakal likörü, limon",
-    desc_eng: "cognac, orange liqueur, lime"
-  },
-  {
-    title: "White Lady",
-    title_az: "Ağ Xanımlı",
-    price: "11/12 AZN",
-    desc_az: "Cin, portakal likörü, limon",
-    desc_eng: "gin, orange liqueur, lime"
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Daiquiri",
     title_az: "Daiquiri",
-    price: "11/12 AZN",
-    desc_az: "Rum, limon, şəkər",
-    desc_eng: "rum, lime, sugar"
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Negroni",
     title_az: "Negroni",
-    price: "11/12 AZN",
-    desc_az: "Cin, Campari, qırmızı vermut",
-    desc_eng: "gin, Campari, red vermouth"
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Whiskey Sour",
-    title_az: "Viski Turşu",
-    price: "11/12 AZN",
-    desc_az: "Viski, limon, şəkər",
-    desc_eng: "whiskey, lime, sugar"
+    title_az: "Whiskey Sour",
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "White Russian",
-    title_az: "Ağ Rus",
-    price: "11/12 AZN",
-    desc_az: "Vodka, Kahlua, krema",
-    desc_eng: "vodka, Kahlua, cream"
-  },
-  {
-    title: "Black Russian",
-    title_az: "Qara Rus",
-    price: "11/12 AZN",
-    desc_az: "Vodka, Kahlua",
-    desc_eng: "vodka, Kahlua"
+    title_az: "White Russian",
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Mai-Tai",
     title_az: "Mai-Tai",
-    price: "11/12 AZN",
-    desc_az: "Rum, portakal likörü, limon, ananas şirəsi",
-    desc_eng: "rum, orange liqueur, lime, pineapple juice"
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Old Fashioned",
-    title_az: "Kohen Moda",
-    price: "11/12 AZN",
-    desc_az: "Viski, şəkər, bitter, portakal",
-    desc_eng: "whiskey, sugar, bitters, orange"
+    title_az: "Old Fashioned",
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Godfather",
     title_az: "Godfather",
-    price: "11/12 AZN",
-    desc_az: "Viski, Amaretto",
-    desc_eng: "whiskey, Amaretto"
+    price: "12 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Americano",
-    title_az: "Amerikano",
-    price: "11/12 AZN",
-    desc_az: "Cin, Campari, qırmızı vermut",
-    desc_eng: "gin, Campari, red vermouth"
-  },
-  {
-    title: "Manhattan",
-    title_az: "Manhattan",
-    price: "11/12 AZN",
-    desc_az: "Viski, qırmızı vermut, bitter",
-    desc_eng: "whiskey, red vermouth, bitters"
-  },
-  {
-    title: "Sea Breeze",
-    title_az: "Dəniz Brizi",
-    price: "11/12 AZN",
-    desc_az: "Vodka, kranberi şirəsi, greyfrut şirəsi",
-    desc_eng: "vodka, cranberry juice, grapefruit juice"
-  },
-  {
-    title: "New Era Cocktails",
-    title_az: "Yeni Dövr Kokteylləri",
+    title_az: "Americano",
     price: "12 AZN",
-    desc_az: "Fərqli yeni dövr alkollü kokteylləri",
-    desc_eng: "various new era alcoholic cocktails"
-  },
-  {
-    title: "Bourbon Bird",
-    title_az: "Burbon Quşu",
-    price: "12 AZN",
-    desc_az: "Burbon əsasında hazırlanmış kokteyl",
-    desc_eng: "bourbon-based cocktail"
-  },
-  {
-    title: "Lost Lake Ship",
-    title_az: "Itmiş Göl Gəmisi",
-    price: "15 AZN",
-    desc_az: "Tropical kokteyl, fərqli alkollar",
-    desc_eng: "tropical cocktail, various alcohols"
+    desc_az: "",
+    desc_eng: "",
   },
   {
     title: "Amaretto Sour",
-    title_az: "Amaretto Turşu",
-    price: "14 AZN",
-    desc_az: "Amaretto, limon, şəkər",
-    desc_eng: "Amaretto, lime, sugar"
-  },
-  {
-    title: "Chai Tropical",
-    title_az: "Çay Tropical",
+    title_az: "Amaretto Sour",
     price: "12 AZN",
-    desc_az: "Tropical çay əsasında kokteyl",
-    desc_eng: "tropical tea-based cocktail"
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Rum Runner",
-    title_az: "Rum Runner",
-    price: "14 AZN",
-    desc_az: "Rum əsasında tropical kokteyl",
-    desc_eng: "rum-based tropical cocktail"
+    title: "Espresso Martini",
+    title_az: "Espresso Martini",
+    price: "13 AZN",
+    desc_az: "",
+    desc_eng: "",
   },
   {
-    title: "Jungle Bird",
-    title_az: "Cəngəl Quşu",
-    price: "14 AZN",
-    desc_az: "Tropical kokteyl, rum əsasında",
-    desc_eng: "tropical cocktail, rum-based"
-  },
-  {
-    title: "Green Sour",
-    title_az: "Yaşıl Turşu",
+    title: "Hunter's Sour",
+    title_az: "Hunter's Sour",
     price: "12 AZN",
-    desc_az: "Yaşıl alkollü kokteyl, limon əsasında",
-    desc_eng: "green alcoholic cocktail, lime-based"
+    desc_az: "",
+    desc_eng: "",
+  },
+];
+
+const Jack_Daniels_Cocktails = [
+  { nameofArray: "Jack Daniel’s Cocktails" },
+  {
+    title: "Popping Jack",
+    title_az: "Popping Jack",
+    price: "14 AZN",
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennessee Old Nº7, Mandarin soda",
   },
   {
-    title: "Pink Lady",
-    title_az: "Çəhrayı Xanımlı",
+    title: "Jackbread Collins",
+    title_az: "Jackbread Collins",
     price: "14 AZN",
-    desc_az: "Çəhrayı alkollü kokteyl",
-    desc_eng: "pink alcoholic cocktail"
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennessee Old Nº7, Fresh Lemon juice, Gingerbread syrup, Tonic water",
   },
   {
-    title: "La Rosita",
-    title_az: "La Rosita",
+    title: "Apple Bergamot Fizz",
+    title_az: "Apple Bergamot Fizz",
     price: "14 AZN",
-    desc_az: "Çəhrayı alkollü kokteyl, tekila əsasında",
-    desc_eng: "pink alcoholic cocktail, tequila-based"
-  }];	
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennesse Apple, Fresh lemon juice, Bergamot syrup, Sparkling water",
+  },
+  {
+    title: "Tennessee Spritz",
+    title_az: "Tennessee Spritz",
+    price: "14 AZN",
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennessee Old Nº7, Jack Daniel's Tennessee Honey, Fresh lemon juice, Cinnamon syrup, Mandarin soda",
+  },
+  {
+    title: "Bitter Jack",
+    title_az: "Bitter Jack",
+    price: "14 AZN",
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennessee Old Nº7, Amaretto liqueur, Fresh lemon juice, Angostura bitters",
+  },
+  {
+    title: "Jack Rikki",
+    title_az: "Jack Rikki",
+    price: "14 AZN",
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennessee Honey, Angostura bitters, Tonic water",
+  },
+  {
+    title: "Apple Lynchburg",
+    title_az: "Apple Lynchburg",
+    price: "14 AZN",
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennessee Old Nº7, Jack Daniel's Tennessee Apple, Fresh lemon juice, Sprite",
+  },
+  {
+    title: "Honey Boulevardier",
+    title_az: "Honey Boulevardier",
+    price: "14 AZN",
+    desc_az: "",
+    desc_eng: "Jack Daniel's Tennessee Honey, Red sweet vermouth, Campari",
+  },
+];
+
+const Shots = [
+  { nameofArray: "Shots for the Table" },
+  {
+    title: "Jazzish Shots",
+    title_az: "Jazzish Shots",
+    price: "20 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Barman’s Brain",
+    title_az: "Barman’s Brain",
+    price: "24 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "DouDou",
+    title_az: "DouDou",
+    price: "24 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Snap, Crackle, Drop",
+    title_az: "Snap, Crackle, Drop",
+    price: "7 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "B-52",
+    title_az: "B-52",
+    price: "9 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "B-55",
+    title_az: "B-55",
+    price: "9 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+  {
+    title: "Hunter",
+    title_az: "Hunter",
+    price: "11 AZN",
+    desc_az: "",
+    desc_eng: "",
+  },
+];
 
 export default {
-    Whiskey,
-    Tequila,
-    Aperitif,
-    Gin,
-    Liqueur,
-    Vermouth,
-    Vodka,
-    Rum,
-    BEERS,
-    SOFTS,
-    Wines,
-    Prosecco,
-    Coktails,
-    Shots,
+  Whiskey,
+  Tequila,
+  Aperitif,
+  Gin,
+  Liqueur,
+  Vermouth,
+  Vodka,
+  Rum,
+  BEERS,
+  SOFTS,
+  Wines,
+  Prosecco,
+  Coktails,
+  Jack_Daniels_Cocktails,
+  Shots,
 };

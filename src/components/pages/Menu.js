@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 import './Menu.css';
 import Navbar from './../Navbar';
 import images from '../../constants/images';
@@ -59,16 +60,18 @@ function Menu() {
       <Navbar/> 
       <Slider items={imageItems} TextForMiddle='Menu Of ETud' autoPlayInterval={3000}/>
       <div className="button-holder">
+      <Link to='/qr-menu' className="button">QR Menu
+        </Link>
         <div className="row">
-         <div className="button"onClick={handleFoodClick}>Tasty</div>
-         <div className="button"onClick={handleSnacksClick}>For The Table</div>
-         <div className="button"onClick={handleAlchoClick}>Alchoholic Drinks</div>
+         <div className={`button ${selectedCategory === "tasty" ? "active-button" : ""}`}onClick={handleFoodClick}>Tasty</div>
+         <div className={`button ${selectedCategory === "Snacks" ? "active-button" : ""}`}onClick={handleSnacksClick}>For The Table</div>
+         <div className={`button ${selectedCategory === "alchohol" ? "active-button" : ""}`}onClick={handleAlchoClick}>Alchoholic Drinks</div>
         </div>
         <div className="row">
-          <div className="button"onClick={handleWinesClick}>Wines & Prosecco</div>
-          <div className="button"onClick={handleCocktailsClick}>Cocktails</div>
+          <div className={`button ${selectedCategory === "wines" ? "active-button" : ""}`}onClick={handleWinesClick}>Wines & Prosecco</div>
+          <div className={`button ${selectedCategory === "cocktails" ? "active-button" : ""}`}onClick={handleCocktailsClick}>Cocktails</div>
         </div>       
-        <div className="button"onClick={handleDrinksClick}>Soft Drinks</div>
+        <div className={`button ${selectedCategory === "softdrinks" ? "active-button" : ""}`}onClick={handleDrinksClick}>Soft Drinks</div>
 
       </div>
 

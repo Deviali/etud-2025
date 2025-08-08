@@ -1,6 +1,9 @@
 .Navbar-list{
     justify-content:space-around;
 }
+.scroll-to-top-2 {
+    bottom: -95vh !important;
+}
 
 
 

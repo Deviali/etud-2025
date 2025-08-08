@@ -1,9 +1,9 @@
 .map {
     position: relative;
-    margin: 1rem 0rem;
+    padding: 10rem 0rem;
     height: 50vh;
-    width: 99vw;
-    z-index: -1;
+    width: 100%;
+    z-index: 10;
   }
   
   .map-container {

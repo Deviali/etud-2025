@@ -20,12 +20,15 @@ function Contact() {
       <Navbar />
       <Slider  items={imageItems} TextForMiddle='Work With us' autoPlayInterval={3000} />
       <div className="contacts-text">
-        <p className="h__catorze">WORK WITH US</p>
-        <p className="p__raleway">Join the talented family at Dante</p>
-        <p className="p__raleway">From our award-winning chefs to the friendly wait staff, the Dante Famiglia is welcoming and diverse - and the one thing we have in common is that we love what we do, and it shows.</p>
-        <p className="p__raleway">We’re gearing up for another exciting Spring, and we couldn’t do it without our fabulous people.</p>
-        <p className="p__raleway">We’re always on the lookout for the right people to join our team and help us grow, so if you’re passionate and proud of what you do, we would love to hear from you! </p>
-        <p className="p__raleway">+123456789</p>
+        <p className="h__catorze">Get in Touch</p>
+        <p className="p__raleway">For reservations, private events, collaborations, or general questions —</p>
+        <p className="p__raleway">Feel free to reach out.</p>
+        <p className="p__raleway">Phone: +994 50 766 66 90 (17:00 – 21:00)</p>
+        <p className="p__raleway">Email: mail@etudbaku.com</p>
+        <p className="p__raleway">Events: events@etudbaku.com (for bookings, collaborations, or if you'd like us to be part of your event)</p>
+        <p className="p__raleway">Telegram: t.me/etudbaku</p>
+        <p className="p__raleway">We typically respond to emails within one day.</p>
+
       </div>
     </div>
   )

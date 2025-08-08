@@ -8,6 +8,7 @@ import OurStory from './components/pages/OurStory';
 import QrMenu from './components/pages/QrMenu';
 import Contact from './components/pages/Contact';
 import Location from './components/pages/Location';
+import Ticket from './components/pages/Tickets';
 
 
 
@@ -18,12 +19,13 @@ function App() {
         {/* <Navbar /> */}
         <Routes>
           <Route path='/' exact Component={Home} />
-          <Route path='/StoryOfJazz' exact Component={Jazz} />
+          {/* <Route path='/StoryOfJazz' exact Component={Jazz} /> */}
           <Route path='/About-us' exact Component={OurStory} />
           <Route path='/Menu' exact Component={Menu} />
           <Route path='/Qr-Menu' exact Component={QrMenu} />
           <Route path='/contact' exact Component={Contact} />
           <Route path='/location' exact Component={Location} />
+          <Route path='/Tickets' exact Component={Ticket} />
         </Routes>
         <Footer />
     </Router>

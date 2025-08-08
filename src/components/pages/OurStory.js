@@ -10,9 +10,9 @@ function OurStory() {
   const addToRefs = useFadeIn();
 
   const imageItems = [
-    images.fira, // Example image from your constants
-    images.nicatAslanov,
-    images.special1,
+    images.Etud1, // Example image from your constants
+    images.Etud2,
+    images.Etud3,
   ];
   const leftColumnImages = [images.barfiller1,images.bgCocktail ,images.barfiller2, images.barfiller5,images.barfiller7];
   const rightColumnImages = [images.barfiller3,images.barfiller4,images.barfiller6, images.special1];
@@ -26,20 +26,32 @@ function OurStory() {
         <p className="p__raleway">"Dante, one of Greenwich Village’s most beloved stomping grounds, has undergone a transformation 104 years in the making. Its latest incarnation: the world’s best bar."</p>
       </div>
       <SectionLR 
-      title=""
-      desc="Lorem ipsum odor amet, consectetuer adipiscing elit. Est tempor mattis semper viverra vitae ullamcorper iaculis est. Urna cursus dignissim dictumst euismod enim interdum vulputate. Platea risus fringilla maximus at egestas curabitur elit. Duis varius arcu habitasse bibendum cras dapibus. Varius enim orci sociosqu eros nisi vulputate porta, aliquam scelerisque."
+      title="Live Music at ETUD"
+      desc="Jazz is our foundation – but it doesn’t stop there. At ETUD, we host an evolving lineup of live performances, from classic jazz to funk, soul, groove, rock, and experimental nights. Our musicians are some of the most respected players in the country – and when they take the stage, the room listens."
       imgsrc={images.special1}
       />
       <div className="story-text"ref={addToRefs}>
-        <p className="p__raleway">Now in its latest incarnation as Dante, its new owners, all lifelong industry professionals, and old friends, have breathed new life into this iconic space. Its historical integrity and sense of community remain firmly intact but now complemented by an elevated selection of modern Italian cuisine, world-class cocktails, and an award-winning bar program. Welcome to Dante, where everything old is new again.</p>
-        <p className="p__raleway">Now in its latest incarnation as Dante, its new owners, all lifelong industry professionals, and old friends, have breathed new life into this iconic space. Its historical integrity and sense of community remain firmly intact but now complemented by an elevated selection of modern Italian cuisine, world-class cocktails, and an award-winning bar program. Welcome to Dante, where everything old is new again.</p>
-        <p className="p__raleway">Now in its latest incarnation as Dante, its new owners, all lifelong industry professionals, and old friends, have breathed new life into this iconic space. Its historical integrity and sense of community remain firmly intact but now complemented by an elevated selection of modern Italian cuisine, world-class cocktails, and an award-winning bar program. Welcome to Dante, where everything old is new again.</p>
-        <p className="p__raleway">Now in its latest incarnation as Dante, its new owners, all lifelong industry professionals, and old friends, have breathed new life into this iconic space. Its historical integrity and sense of community remain firmly intact but now complemented by an elevated selection of modern Italian cuisine, world-class cocktails, and an award-winning bar program. Welcome to Dante, where everything old is new again.</p>
+        <p className="p__raleway">ETUD began in 2016 with one simple goal: to create a space where music isn’t just background, but it’s the main event. Built into the bones of the city, underground and dimly lit, ETUD feels like a secret you’re glad you found. We never tried to be everywhere — we just focused on getting it right here.</p>
+        <p className="p__raleway">Over the years, we’ve become a trusted stage for some of Azerbaijan’s finest musicians, as well as a stop for international talent. From time to time, we also open the stage to rising artists ready to prove themselves. And as the music grew, so did our audience — thoughtful listeners who come for more than just a night out.</p>
+        <p className="p__raleway">ETUD has also become a home for intimate private events — from birthdays and anniversaries to creative launches and cozy corporate gatherings. If it calls for atmosphere and great sound, it fits our space.</p>
+        <p className="p__raleway">Beyond our own walls, we proudly support and curate live music experiences at festivals, cultural events, and other venues, carrying the same spirit and attention to sound wherever we go.
+
+This is ETUD — for those who care about the craft. Who feel something when the lights go down and the first note hits.</p>
       </div>
 
       <SectionLR 
-      title=""
-      desc="Lorem ipsum odor amet, consectetuer adipiscing elit. Est tempor mattis semper viverra vitae ullamcorper iaculis est. Urna cursus dignissim dictumst euismod enim interdum vulputate. Platea risus fringilla maximus at egestas curabitur elit. Duis varius arcu habitasse bibendum cras dapibus. Varius enim orci sociosqu eros nisi vulputate porta, aliquam scelerisque."
+      title="Weekly Highlights:"
+      desc={
+        <>
+          Tuesdays & Wednesdays – Jazz sessions with rotating artists
+          <br />
+          Fridays & Saturdays – Live bands & genre nights
+          <br />
+          Special Events – Debut shows, tribute nights & surprise guests
+          <br />
+          Every set is live. Every moment is real.
+        </>
+      }
       imgsrc={images.special2}
       />
       <GallerySection
