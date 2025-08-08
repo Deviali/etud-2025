@@ -23,7 +23,7 @@ function OurStory() {
       <Slider items={imageItems} TextForMiddle='' autoPlayInterval={3000}/>
       <div className="story-info"ref={addToRefs}>
         <p className="h__catorze">Our Story</p>
-        <p className="p__raleway">"Dante, one of Greenwich Village’s most beloved stomping grounds, has undergone a transformation 104 years in the making. Its latest incarnation: the world’s best bar."</p>
+        {/* <p className="p__raleway">"Dante, one of Greenwich Village’s most beloved stomping grounds, has undergone a transformation 104 years in the making. Its latest incarnation: the world’s best bar."</p> */}
       </div>
       <SectionLR 
       title="Live Music at ETUD"

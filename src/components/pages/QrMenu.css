@@ -132,7 +132,7 @@
         -ms-overflow-style: none !important; /* IE and Edge */
     }
     .button-holders-qr .button{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .button {
@@ -146,7 +146,7 @@
     }
     .qr-text p{
         margin: 0.5em 0;
-        font-size: 15px;
+        font-size: 12px;
     }
     .qr-highlight-box .qr-text p{
         font-size: 18px;

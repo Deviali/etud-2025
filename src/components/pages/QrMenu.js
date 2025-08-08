@@ -24,8 +24,8 @@ function QrMenu() {
 
   // Truncate description to 100 characters for qr-list only
   const truncateDescription = (desc) => {
-    if (desc && desc.length > 100) {
-      return desc.slice(0, 100) + "...";
+    if (desc && desc.length > 90) {
+      return desc.slice(0, 90) + "...";
     }
     return desc;
   };
