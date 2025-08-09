@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {Link} from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 import './Navbar.css';
 import './MainNavbar.css';
 import { RxCross1,RxHamburgerMenu } from "react-icons/rx";
@@ -13,14 +13,15 @@ function MainNavbar() {
     const [click,setClick] = useState(false);
     const handleClick = () => setClick(!click);  
     const closeMobileMenu= () => setClick(false);
-  
+    const location = useLocation(); 
+
     const scrollToTop = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
 
     useEffect(() => {
       window.scrollTo(0, 0); 
-    }); 
+    }, [location.pathname]); 
 
     useEffect(() => {
         // Handle scroll event to detect when to change the navbar background
