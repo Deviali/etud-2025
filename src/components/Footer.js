@@ -40,14 +40,14 @@ function Footer() {
           Made By Ali-Pa
         </a>      
       </div>
-      <ul className="footer-list">
+      {/* <ul className="footer-list">
         <li className="footer-list-item">
           <Link to='/location' className="Navbar-item-link">Location</Link>
         </li>
         <li className="footer-list-item">
           <Link to='/contact' className="Navbar-item-link">Contact Us</Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   )
 }

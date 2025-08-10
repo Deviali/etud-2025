@@ -1,17 +1,10 @@
 import React from 'react'
-import images from '../../constants/images';
 import Navbar from './../Navbar';
-import Slider from './../Slider';
 import './Location.css';
 import Maps from './../maps';
 
 function Location() {
-  // Change images to change slider photos
-  const imageItems = [
-    images.barfiller1, 
-    images.barfiller2,
-    images.special1,
-  ];
+  
 
 
 
@@ -20,11 +13,10 @@ function Location() {
   return (
     <div className='Location'>
         <Navbar/>
-        <Slider items={imageItems} TextForMiddle='' autoPlayInterval={3000}/>
         <div className="location-info">
           <div className="location-info-text">
             <p className="h__catorze">Hours & Location</p>
-            <p className="p__catorze">
+            <p className="p__catorze contacts-highlight">
             Address:<br/>
              İslam Səfərli 16, Baku, Azerbaijan,<br/>
              Working Hours:<br/>

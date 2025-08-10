@@ -48,7 +48,9 @@ function Menu() {
         .concat(DrinksItems.Prosecco);
       case "cocktails":
         return DrinksItems.Coktails
-        .concat(DrinksItems.Shots);
+        .concat(DrinksItems.Shots)
+        .concat(DrinksItems.Jack_Daniels_Cocktails);
+
       default:
         return [];
     }

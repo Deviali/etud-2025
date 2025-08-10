@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./QrMenu.css";
 import MenuItems from "../../constants/MenuItems";
 import DrinksItems from "../../constants/DrinksItems";
@@ -8,24 +8,59 @@ import { RxCross1 } from "react-icons/rx";
 function QrMenu() {
   const [selectedCategory, setSelectedCategory] = useState("Salads&Bruschettas");
   const [highlightedItem, setHighlightedItem] = useState(null);
+  const menuRef = useRef(null); // Create a ref for the menu container
 
-  const handleBurgersClick = () => setSelectedCategory("Burgers&sandwiches");
-  const handleSaladsClick = () => setSelectedCategory("Salads&Bruschettas");
-  const handleNewsClick = () => setSelectedCategory("new");
-  const handleSnacksClick = () => setSelectedCategory("Snacks");
-  const handleDrinksClick = () => setSelectedCategory("softdrinks");
-  const handleAlchoClick = () => setSelectedCategory("alchohol");
-  const handleWinesClick = () => setSelectedCategory("wines");
-  const handleCocktailsClick = () => setSelectedCategory("cocktails");
-  const handleJACKCocktailsClick = () => setSelectedCategory("Jack Daniels Cocktails");
+  // Function to scroll to top
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scrolling
+    });
+  };
+  const handleBurgersClick = () => {
+    setSelectedCategory("Burgers&sandwiches");
+    scrollToTop();
+  };
+  const handleSaladsClick = () => {
+    setSelectedCategory("Salads&Bruschettas");
+    scrollToTop();
+  };
+  const handleNewsClick = () => {
+    setSelectedCategory("new");
+    scrollToTop();
+  };
+  const handleSnacksClick = () => {
+    setSelectedCategory("Snacks");
+    scrollToTop();
+  };
+  const handleDrinksClick = () => {
+    setSelectedCategory("softdrinks");
+    scrollToTop();
+  };
+  const handleAlchoClick = () => {
+    setSelectedCategory("alchohol");
+    scrollToTop();
+  };
+  const handleWinesClick = () => {
+    setSelectedCategory("wines");
+    scrollToTop();
+  };
+  const handleCocktailsClick = () => {
+    setSelectedCategory("cocktails");
+    scrollToTop();
+  };
+  const handleJACKCocktailsClick = () => {
+    setSelectedCategory("Jack Daniels Cocktails");
+    scrollToTop();
+  };
 
   const handleBoxClick = (item) => setHighlightedItem(item);
   const handleCloseHighlight = () => setHighlightedItem(null);
 
-  // Truncate description to 100 characters for qr-list only
+  // Truncate description to 75 characters for qr-list only
   const truncateDescription = (desc) => {
-    if (desc && desc.length > 90) {
-      return desc.slice(0, 90) + "...";
+    if (desc && desc.length > 75) {
+      return desc.slice(0, 75) + "...";
     }
     return desc;
   };
@@ -66,10 +101,14 @@ function QrMenu() {
 
   return (
     <div className="qr">
-      <div className="qr-Navbar">
+      <div className="qr-Navbar"> 
         <div className="Navbar-logo">
           <img src={images.etudlogo} alt="Etuds Logo" />
         </div>
+      </div>
+      <div className="qr-service">
+      <p className="p__raleway">5% service charge not included <br />
+5% xidmət haqqı qiymətlərə daxil deyildir</p> 
       </div>
       <div className="button-holders-qr">
         <div
@@ -150,9 +189,9 @@ function QrMenu() {
             return (
               <div className="qr-box" key={index} onClick={() => handleBoxClick(item)}>
                 <div className="qr-text">
-                  <h1 className="p__raleway">{item.title}</h1>
-                  <p className="p__raleway">{truncateDescription(item.desc_eng)}</p>
-                  <p className="p__raleway">{item.price}</p>
+                  <h1 className="p__raleway qr-text-size">{item.title}</h1>
+                  <p className="p__raleway qr-text-size">{truncateDescription(item.desc_eng)}</p>
+                  <p className="p__raleway qr-text-size">{item.price}</p>
                 </div>
                 {item.imgUrl && (
                   <div className="qr-img">

@@ -88,7 +88,7 @@ function Tickets() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="date">Select Event Date</label>
+            <label htmlFor="date">Select Event</label>
             <input
               type="date"
               id="date"
@@ -98,12 +98,12 @@ function Tickets() {
               required
             />
           </div>
-          <div className="form-group">
+          {/* <div className="form-group">
             <p className="p__catorze">
               Total Cost: {totalCost} AZN ({formData.tickets} ticket
               {formData.tickets > 1 ? "s" : ""} x 10 AZN)
             </p>
-          </div>
+          </div> */}
           <button type="submit" className="button button-tickets">
             Proceed to Payment
           </button>

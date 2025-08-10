@@ -11,14 +11,18 @@ z-index: 100;
 transition: background-color 0.3s ease;
 backdrop-filter: blur(6px);
 -webkit-backdrop-filter: blur(6px); /* For Safari support */
-  mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
-  -webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+-webkit-mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
 }
 .Navbar-icon{
     display: none;
 }
 .Navbar.scrolled{
     background: black;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none; /* For Safari support */
+    mask-image: none;
+    -webkit-mask-image: none;
 }
 
 .Navbar-container{
@@ -128,6 +132,10 @@ backdrop-filter: blur(6px);
       }
     .Navbar{
         background: black !important;
+        backdrop-filter: none;
+    -webkit-backdrop-filter: none; /* For Safari support */
+    mask-image: none;
+    -webkit-mask-image: none;
     }
     .mobile{display:block;}
 

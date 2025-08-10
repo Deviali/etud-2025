@@ -1,5 +1,14 @@
 .Location{
-    padding-bottom: 10vh;
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.2) 50%,
+        rgba(0, 0, 0, 0.7) 90%
+      ),
+      linear-gradient(to top, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.7) 95%),
+      url('../../assets/Etud2.jpeg');
+      background-size: cover;
+    background-position: center;
 }
 .location-info{
     display: flex;
