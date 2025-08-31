@@ -9,6 +9,7 @@ import QrMenu from './components/pages/QrMenu';
 import Contact from './components/pages/Contact';
 import Location from './components/pages/Location';
 import Ticket from './components/pages/Tickets';
+import AdminPage from './components/AdminPage';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/contact' exact Component={Contact} />
           <Route path='/location' exact Component={Location} />
           <Route path='/Tickets' exact Component={Ticket} />
+          <Route path='/Admin' exact Component={AdminPage} />
         </Routes>
         <Footer />
     </Router>

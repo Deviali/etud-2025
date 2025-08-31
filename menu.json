@@ -1,0 +1,1325 @@
+{
+  "menu": {
+    "SALADS_BRUSCHETTAS": [
+      {
+        "nameofArray": "Salads & Bruschettas"
+      },
+      {
+        "title": "Smoked Salmon Salad",
+        "title_az": "Hisə Verilmiş Qızıl Balıq Salatı",
+        "price": "15.8 AZN",
+        "desc_az": "Hisə verilmiş qızıl balıq, göyərtilər, limon sousu, çerri pomidoru, portağal",
+        "desc_eng": "Smoked salmon, mix salad, mix cheese, lemon sauce, cherry tomato, orange"
+      },
+      {
+        "title": "Tuna Salad",
+        "title_az": "Tuna Salatı",
+        "price": "12 AZN",
+        "desc_az": "Tuna balığı, qaynadılmış yumurta, göyərtilər, qarğıdalı, zeytun, çerri pomidoru",
+        "desc_eng": "Tuna, boiled egg, mix salad, corn, olive, cherry tomato"
+      },
+      {
+        "title": "Vegetarian Salad",
+        "title_az": "Vegeterian Salatı",
+        "price": "10.8 AZN",
+        "desc_az": "Avokado, xiyar, çerri pomidoru, qarğıdalı, zeytun, limon sousu, ağ pendir, göyərtilər",
+        "desc_eng": "Avocado, cucumber, cherry tomato, corn, olive, lemon sauce, white cheese, mix salad"
+      },
+      {
+        "title": "Caesar Salad",
+        "title_az": "Sezar Salatı",
+        "price": "12.80 / 14.80 AZN",
+        "desc_az": "Seazar sousu, aysberq, parmezan pendiri, çerri pomidoru, suxarı, toyuq filesi və ya krevet ilə",
+        "desc_eng": "Caesar sauce, iceberg, parmesan, cherry tomato, croutons with chicken fillet or prawn"
+      },
+      {
+        "title": "Beef Salad",
+        "title_az": "Can Əti Salatı",
+        "price": "14.8 AZN",
+        "desc_az": "Can əti, göyərtilər, limon sousu, çerri pomidoru, qoz, qırmızı lobya",
+        "desc_eng": "Beef tenderloin, mix salad, lemon sauce, cherry tomato, walnut, red kidney beans"
+      },
+      {
+        "title": "Chicken Popcorn Salad",
+        "title_az": "Toyuq Popkorn Salatı",
+        "price": "12.8 AZN",
+        "desc_az": "Toyuq popkorn, avokado, çerri pomidoru, qarğıdalı, göyərtilər, popkorn sousu",
+        "desc_eng": "Chicken popcorn, avocado, cherry tomato, corn, mix salad, popcorn sauce"
+      },
+      {
+        "title": "Bruschetta Salmon",
+        "title_az": "Qızıl balıq Brusketta",
+        "price": "16 AZN",
+        "desc_az": "Çiabatta çörəyi, hisə verilmiş qızıl balıq, çerri pomidoru, qırmızı soğan, kapers",
+        "desc_eng": "Ciabatta bread, smoked salmon, cherry tomato, red onion, capers"
+      },
+      {
+        "title": "Bruschetta Tomato",
+        "title_az": "Pomidorlu Brusketta",
+        "price": "12 AZN",
+        "desc_az": "Çiabatta çörəyi, pomidor, balzamik sous, kəklikotu",
+        "desc_eng": "Ciabatta bread, tomato, balsamic sauce, oregano"
+      },
+      {
+        "title": "Bruschetta Chicken",
+        "title_az": "Toyuqlu Brusketta",
+        "price": "14 AZN",
+        "desc_az": "Çiabatta çörəyi, hisə verilmiş toyuq, balzamik sous, qarğıdalı",
+        "desc_eng": "Ciabatta bread, smoked chicken, balsamic sauce, corn"
+      },
+      {
+        "title": "Bruschetta Beef",
+        "title_az": "Ətli Brusketta",
+        "price": "15 AZN",
+        "desc_az": "Çiabatta çörəyi, hisə verilmiş mal əti, pomidor, kapers",
+        "desc_eng": "Ciabatta bread, smoked beef slices, tomato, capers"
+      }
+    ],
+    "BURGERS_SANDWICHES": [
+      {
+        "nameofArray": "Burgers & Sandwiches"
+      },
+      {
+        "title": "Beef Burger",
+        "title_az": "Dana Burger",
+        "price": "13.9 AZN",
+        "desc_az": "Dana əti, xüsusi sous, çedar, karamelizə qırmızı soğan, turşu xiyar, pomidor, kahı, kartof fri ilə",
+        "desc_eng": "Beef, special sauce, cheddar cheese, caramelized red onion, pickle, tomato, lettuce, with french fries"
+      },
+      {
+        "title": "Cheese Burger",
+        "title_az": "Çizburger",
+        "price": "14.9 AZN",
+        "desc_az": "Dana əti, çedar sousu, çedar dilimi, karamelizə qırmızı soğan, turşu xiyar, pomidor, kahı kartof fri ilə",
+        "desc_eng": "Beef, cheddar sauce, cheddar slice, caramelized red onion, pickle, tomato, lettuce, with french fries"
+      },
+      {
+        "title": "ETUD Burger",
+        "title_az": "ETUD Burger",
+        "price": "16.9 AZN",
+        "desc_az": "Dana əti, bekon, çedar pendiri, xüsusi sous, karamelizə qırmızı soğan, turşu xiyar, pomidor, kahı kartof fri ilə",
+        "desc_eng": "Beef, bacon, cheddar cheese, special sauce, caramelized red onion, pickle, tomato, lettuce, with french fries",
+        "imgUrl": ""
+      },
+      {
+        "title": "Chicken Burger",
+        "title_az": "Toyuq Burger",
+        "price": "12.9 AZN",
+        "desc_az": "Toyuq, xüsusi sous, çedar pendiri, turşu xiyar, pomidor, kahı, kartof fri ilə",
+        "desc_eng": "Chicken, special sauce, cheddar cheese, pickle, tomato, lettuce, with french fries"
+      },
+      {
+        "title": "Mushroom Burger",
+        "title_az": "Göbələk Burger",
+        "price": "14.9 AZN",
+        "desc_az": "Dana əti, göbələk sousu, kahı, turşu xiyar, kartof fri ilə",
+        "desc_eng": "Beef, mushroom sauce, lettuce, cucumber pickle, with french fries"
+      },
+      {
+        "title": "Vegetarian Burger",
+        "title_az": "Vegetarian Burger",
+        "price": "12 AZN",
+        "desc_az": "Vegetarian köftə, xüsusi sous, çedar pendiri, karamelizə qırmızı soğan, turşu xiyar, pomidor, kahı, kartof fri ilə",
+        "desc_eng": "Veggie patty, special sauce, cheddar cheese, caramelized red onion, pickle, tomato, lettuce, with french fries"
+      },
+      {
+        "title": "Mini Burgers",
+        "title_az": "Kiçik Burgerlər",
+        "price": "14.9 AZN",
+        "desc_az": "İki kiçik dana burger, tartar sousu, mozzarella pendiri, turşu xiyar, kahı, kartof fri ilə",
+        "desc_eng": "Two mini beef burgers, tartar sauce, mozzarella cheese, pickle, lettuce, with french fries"
+      },
+      {
+        "title": "Mexican Burger",
+        "title_az": "Meksikan Burger",
+        "price": "14.9 AZN",
+        "desc_az": "Dana əti, xüsusi sous, acılı meksikan sousu, turşu xiyar, pomidor, kahı, kartof fri ilə",
+        "desc_eng": "Beef, special sauce, spicy mexican sauce, pickle, tomato, lettuce, with french fries"
+      },
+      {
+        "title": "Steak Burger",
+        "title_az": "Steyk Burger",
+        "price": "15.9 AZN",
+        "desc_az": "Can əti steyk, turşu xiyar, pomidor, kahı, kartof fri ilə",
+        "desc_eng": "Beef tenderloin steak, pickle, tomato, lettuce, with french fries"
+      },
+      {
+        "title": "Club Sandwich",
+        "title_az": "Klub Sendviç",
+        "price": "12 AZN",
+        "desc_az": "Toyuq filesi, yumurta, mozzarella pendiri, pomidor, kahı, turşu xiyar, kartof fri ilə",
+        "desc_eng": "Chicken fillet, egg, mozzarella cheese, tomato, lettuce, pickle, with french fries"
+      },
+      {
+        "title": "Chicken Sandwich",
+        "title_az": "Toyuq Sendviç",
+        "price": "11.9 AZN",
+        "desc_az": "Toyuq filesi, mozzarella, pomidor, turşu xiyar, kahı",
+        "desc_eng": "Chicken fillet, mozzarella, tomato, pickle, lettuce"
+      },
+      {
+        "title": "Salmon Sandwich",
+        "title_az": "Qızıl Balıq Sendviç",
+        "price": "14.9 AZN",
+        "desc_az": "Hisə verilmiş qızıl balıq, pesto sousu, kahı",
+        "desc_eng": "Smoked salmon, pesto sauce, lettuce"
+      },
+      {
+        "title": "Caesar Roll",
+        "title_az": "Sezar Roll",
+        "price": "11.9 AZN",
+        "desc_az": "Tortilla lavaşı, sezar sous, toyuq filesi, parmezan, pomidor, aysberq, kartof fri ilə",
+        "desc_eng": "Tortilla, Caesar sauce, chicken fillet, parmesan, tomato, iceberg, with french fries"
+      },
+      {
+        "title": "Steak Sandwich",
+        "title_az": "Steyk Sendviç",
+        "price": "13.9 AZN",
+        "desc_az": "Can əti steyk, mozzarella pendiri, turşu xiyar, pomidor, kahı, tartar sousu",
+        "desc_eng": "Beef tenderloin steak, mozzarella cheese, pickle, tomato, lettuce, tartar sauce"
+      },
+      {
+        "title": "Chicken Pesto Sandwich",
+        "title_az": "Pesto Souslu Toyuq Sendviç",
+        "price": "12.9 AZN",
+        "desc_az": "Toyuq filesi, pesto sousu, mozzarella, pomidor",
+        "desc_eng": "Chicken fillet, pesto sauce, mozzarella, tomato"
+      }
+    ],
+    "Snacks_Sets": [
+      {
+        "nameofArray": "Snack Sets"
+      },
+      {
+        "title": "ETUD's Special Set",
+        "title_az": "ETUD Özel Set",
+        "price": "36 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Sausage Board",
+        "title_az": "Sosis Assorti",
+        "price": "17 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Cheese Board",
+        "title_az": "Pendir Assorti",
+        "price": "22 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Meat Board",
+        "title_az": "Ət Assorti",
+        "price": "24 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Fruit Plate",
+        "title_az": "Meyvə Boşqabı",
+        "price": "16 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Nachos/Minced Meat",
+        "title_az": "Naços/Qiyməli",
+        "price": "14.00 / 17.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Quesadilla",
+        "title_az": "Kesadila",
+        "price": "12 AZN",
+        "desc_az": "Tortilla lavaşı, can əti, qarışıq pendirlər, xüsusi sous",
+        "desc_eng": "Tortilla, beef tenderloin, cheese mix, special sauce"
+      },
+      {
+        "title": "Panko Prawns",
+        "title_az": "Panko Krevet",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Panko Calamari",
+        "title_az": "Panko Kalmar",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Fish & Chips",
+        "title_az": "Balıq və Kartof Dilimləri",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Chicken Schnitzel",
+        "title_az": "Toyuq Şnitzel",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Chicken Pate",
+        "title_az": "Toyuq Paştet",
+        "price": "10 AZN",
+        "desc_az": "Toyuq Paşteti, baget çörək, kərə yağı",
+        "desc_eng": "Chicken Pâté, baguette bread, butter"
+      },
+      {
+        "title": "Mozzarella Sticks",
+        "title_az": "Mozzarella Çubuqları",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Cheese Balls",
+        "title_az": "Pendir Topları",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Nuggets",
+        "title_az": "Naqets",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Chicken Popcorn",
+        "title_az": "Toyuq Popkorn",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "BBQ Chicken Wings",
+        "title_az": "BBQ Toyuq Qanadları",
+        "price": "8 AZN",
+        "desc_az": "BBQ sousunda toyuq qanadları",
+        "desc_eng": "Chicken wings in BBQ sauce"
+      },
+      {
+        "title": "Chicken Wings",
+        "title_az": "Toyuq Qanadları",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Onion Rings",
+        "title_az": "Soğan Halqaları",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Pistachios",
+        "title_az": "Püstə",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "French Fries",
+        "title_az": "Kartof Fri",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Cheese Fries",
+        "title_az": "Pendirli Kartof Fri",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Potato Wedges",
+        "title_az": "Kartof Dilimləri",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Peanuts",
+        "title_az": "Duzlu Yerfıstıqları",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Fried Dushbara",
+        "title_az": "Qızardılmış Düşbərə",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Fried String Cheese",
+        "title_az": "Qızardılmış Saçaqlı Pendir",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "String Cheese",
+        "title_az": "Saçaqlı Pendir",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Chips",
+        "title_az": "Çips",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Olive",
+        "title_az": "Zeytun",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "New": [
+      {
+        "nameofArray": "New Items"
+      },
+      {
+        "title": "Lazanya / Lasagna",
+        "title_az": "YENİ Lazanya / Lasagna",
+        "price": "15 AZN",
+        "desc_az": "Bolognese bəşəmel sousu, lasagna xəmiri",
+        "desc_eng": "Bolognese Béchamel sauce, lasagna dough"
+      },
+      {
+        "title": "Chicken Pate",
+        "title_az": "Toyuq Paştet",
+        "price": "15 AZN",
+        "desc_az": "Pastet bağet çörək, karabəf, toyuq əti, peynir, xüsusi sous",
+        "desc_eng": "pastry baguette bread, beef, chicken meat, cheese mix, special sauce"
+      },
+      {
+        "title": "BBQ Wings",
+        "title_az": "BBQ Kanatlar",
+        "price": "15 AZN",
+        "desc_az": "BBQ sousunda toyuq kanatları, peynir, xüsusi sous",
+        "desc_eng": "BBQ sauce chicken wings, cheese mix, special sauce"
+      }
+    ],
+    "Whiskey": [
+      {
+        "nameofArray": "Whiskey"
+      },
+      {
+        "title": "Jack Daniel's Old N.7",
+        "title_az": "Jack Daniel's Old N.7",
+        "price": "8.00 / 120.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Jack Daniel's Tennessee Apple",
+        "title_az": "Jack Daniel's Tennessee Apple",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Jack Daniel's Tennessee Honey",
+        "title_az": "Jack Daniel's Tennessee Honey",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Jack Daniel's Gentleman Jack",
+        "title_az": "Jack Daniel's Gentleman Jack",
+        "price": "10 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Woodford Reserve",
+        "title_az": "Woodford Reserve",
+        "price": "10 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Chivas Regal 12 Y.O.",
+        "title_az": "Chivas Regal 12 İllik",
+        "price": "9 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Chivas Regal 18 Y.O.",
+        "title_az": "Chivas Regal 18 İllik",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Glenfiddich 12 Y.O.",
+        "title_az": "Glenfiddich 12 İllik",
+        "price": "11 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Singleton",
+        "title_az": "Singleton",
+        "price": "9 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Jameson",
+        "title_az": "Jameson",
+        "price": "8.00 / 120.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "JW Black Label",
+        "title_az": "JW Black Label",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "JW Red Label",
+        "title_az": "JW Red Label",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Jim Beam",
+        "title_az": "Jim Beam",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Tequila": [
+      {
+        "nameofArray": "Tequila"
+      },
+      {
+        "title": "Sierra",
+        "title_az": "Sierra",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Olmeca Blanco",
+        "title_az": "Olmeca Blanco",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Olmeca Gold",
+        "title_az": "Olmeca Gold",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Patron",
+        "title_az": "Patron",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Aperitif": [
+      {
+        "nameofArray": "Aperitif"
+      },
+      {
+        "title": "Aperol",
+        "title_az": "Aperol",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Campari",
+        "title_az": "Campari",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Gin": [
+      {
+        "nameofArray": "Gin"
+      },
+      {
+        "title": "Gin Mare",
+        "title_az": "Gin Mare",
+        "price": "10 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Gordon's",
+        "title_az": "Gordon's",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Bombay Sapphire",
+        "title_az": "Bombay Sapphire",
+        "price": "9 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Liqueur": [
+      {
+        "nameofArray": "Liqueur"
+      },
+      {
+        "title": "Jagermeister",
+        "title_az": "Jagermeister",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Baileys",
+        "title_az": "Baileys",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Cointreau",
+        "title_az": "Cointreau",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Amaretto",
+        "title_az": "Amaretto",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Kahlua",
+        "title_az": "Kahlua",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Sambuca",
+        "title_az": "Sambuca",
+        "price": "10 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Xenta Absenta",
+        "title_az": "Xenta Absenta",
+        "price": "10 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Vermouth": [
+      {
+        "nameofArray": "Vermouth"
+      },
+      {
+        "title": "Martini Fiero",
+        "title_az": "Martini Fiero",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Martini Bianco",
+        "title_az": "Martini Bianco",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Martini Rosato",
+        "title_az": "Martini Rosato",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Martini Rosso",
+        "title_az": "Martini Rosso",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Vodka": [
+      {
+        "nameofArray": "Vodka"
+      },
+      {
+        "title": "Nemiroff",
+        "title_az": "Nemiroff",
+        "price": "5.00 / 70.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Absolut",
+        "title_az": "Absolut",
+        "price": "6.00 / 90.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Finlandia",
+        "title_az": "Finlandia",
+        "price": "6.00 / 90.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Rum": [
+      {
+        "nameofArray": "Rums"
+      },
+      {
+        "title": "Captain Morgan Gold",
+        "title_az": "Captain Morgan Gold",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Captain Morgan Jamaica",
+        "title_az": "Captain Morgan Jamaica",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Bacardi",
+        "title_az": "Bacardi",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "BEERS": [
+      {
+        "nameofArray": "Beers"
+      },
+      {
+        "title": "Blanc Kronenburg",
+        "title_az": "Blanc Kronenburg",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Xirdalan Draft (filtered)",
+        "title_az": "Xirdalan Çəkmə (Filtrli)",
+        "price": "4.5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Xirdalan Draft (unfiltered)",
+        "title_az": "Xirdalan Çəkmə (Filtrsiz)",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Xirdalan Bottle",
+        "title_az": "Xirdalan Şüşə",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Guinness",
+        "title_az": "Guinness",
+        "price": "10 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Erdinger",
+        "title_az": "Erdinger",
+        "price": "9 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Corona",
+        "title_az": "Corona",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Heineken",
+        "title_az": "Heineken",
+        "price": "8 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Tuborg",
+        "title_az": "Tuborg",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Efes Draft",
+        "title_az": "Efes Çəkmə",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Efes Zero",
+        "title_az": "Efes Zero",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "SOFTS": [
+      {
+        "nameofArray": "Soft Drinks"
+      },
+      {
+        "title": "Redbull",
+        "title_az": "Redbull",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Tonic",
+        "title_az": "Tonic",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Coca Cola",
+        "title_az": "Coca Cola",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Juice / Fresh Juice",
+        "title_az": "Şirə / Təzə Şirə",
+        "price": "4.00 / 8.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Ice Tea",
+        "title_az": "Soyuq Çay",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Water / Su",
+        "title_az": "Su",
+        "price": "3 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Tea / Çay",
+        "title_az": "Çay",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Espresso",
+        "title_az": "Espresso",
+        "price": "5 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Americano",
+        "title_az": "Americano",
+        "price": "6 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Cappuccino",
+        "title_az": "Cappuccino",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Wines": [
+      {
+        "nameofArray": "Wines"
+      },
+      {
+        "title": "Meysari Maxxani Premium (Red dry)",
+        "title_az": "Meysari Maxxani Premium (Qırmızı quru)",
+        "price": "39.9 AZN",
+        "desc_az": "Qırmızı quru şərab, premium",
+        "desc_eng": "red dry wine, premium"
+      },
+      {
+        "title": "Meysari Marcan (Red dry)",
+        "title_az": "Meysari Marcan (Qırmızı quru)",
+        "price": "34.9 AZN",
+        "desc_az": "Qırmızı quru şərab",
+        "desc_eng": "red dry wine"
+      },
+      {
+        "title": "Meysari Safdar (White dry)",
+        "title_az": "Meysari Safdar (Ağ quru)",
+        "price": "34.9 AZN",
+        "desc_az": "Ağ quru şərab",
+        "desc_eng": "white dry wine"
+      },
+      {
+        "title": "Meysari Sanam (Rose dry)",
+        "title_az": "Meysari Sanam (Çəhrayı quru)",
+        "price": "34.9 AZN",
+        "desc_az": "Çəhrayı quru şərab",
+        "desc_eng": "rose dry wine"
+      },
+      {
+        "title": "Chabiant (Red dry)",
+        "title_az": "Chabiant (Qırmızı quru)",
+        "price": "6/26 AZN",
+        "desc_az": "Qırmızı quru şərab",
+        "desc_eng": "red dry wine"
+      },
+      {
+        "title": "Chabiant (White dry)",
+        "title_az": "Chabiant (Ağ quru)",
+        "price": "6/26 AZN",
+        "desc_az": "Ağ quru şərab",
+        "desc_eng": "white dry wine"
+      },
+      {
+        "title": "Chabiant Saperavi - Cabernet sauvignon",
+        "title_az": "Chabiant Saperavi - Cabernet sauvignon",
+        "price": "39.9 AZN",
+        "desc_az": "Saperavi və Cabernet sauvignon qarışıq şərabı",
+        "desc_eng": "Saperavi and Cabernet Sauvignon blend wine"
+      },
+      {
+        "title": "Chabiant Vino Nuovo",
+        "title_az": "Chabiant Vino Nuovo",
+        "price": "39.9 AZN",
+        "desc_az": "Yeni şərab, qırmızı",
+        "desc_eng": "new wine, red"
+      },
+      {
+        "title": "Savalan Merlot (Red semi)",
+        "title_az": "Savalan Merlot (Qırmızı semi)",
+        "price": "6/28 AZN",
+        "desc_az": "Qırmızı semi şərab, Merlot",
+        "desc_eng": "red semi wine, Merlot"
+      },
+      {
+        "title": "Savalan Merlot (Red dry)",
+        "title_az": "Savalan Merlot (Qırmızı quru)",
+        "price": "6/28 AZN",
+        "desc_az": "Qırmızı quru şərab, Merlot",
+        "desc_eng": "red dry wine, Merlot"
+      },
+      {
+        "title": "Hillside Prestige (White Dry)",
+        "title_az": "Hillside Prestige (Ağ quru)",
+        "price": "6/28 AZN",
+        "desc_az": "Ağ quru şərab, premium",
+        "desc_eng": "white dry wine, premium"
+      },
+      {
+        "title": "Hillside Curve (Red dry)",
+        "title_az": "Hillside Curve (Qırmızı quru)",
+        "price": "6/28 AZN",
+        "desc_az": "Qırmızı quru şərab",
+        "desc_eng": "red dry wine"
+      },
+      {
+        "title": "Hillside Prestige (Rose Dry)",
+        "title_az": "Hillside Prestige (Çəhrayı quru)",
+        "price": "28 AZN",
+        "desc_az": "Çəhrayı quru şərab, premium",
+        "desc_eng": "rose dry wine, premium"
+      },
+      {
+        "title": "Aggo Red (Pomegranate)",
+        "title_az": "Aggo Qırmızı (Nar)",
+        "price": "4/16 AZN",
+        "desc_az": "Nar əsasında hazırlanmış qırmızı şərab",
+        "desc_eng": "pomegranate-based red wine"
+      },
+      {
+        "title": "Sangria Premium",
+        "title_az": "Sangria Premium",
+        "price": "6/16 AZN",
+        "desc_az": "Premium sangria, meyveli karışım",
+        "desc_eng": "premium sangria, fruity mix"
+      }
+    ],
+    "Prosecco": [
+      {
+        "nameofArray": "Prosecco or Sparkling Wines"
+      },
+      {
+        "title": "Astoria",
+        "title_az": "Astoria",
+        "price": "65 AZN",
+        "desc_az": "İtalyan köpüklü şərab, premium",
+        "desc_eng": "Italian sparkling wine, premium"
+      },
+      {
+        "title": "Cinzano",
+        "title_az": "Cinzano",
+        "price": "70 AZN",
+        "desc_az": "İtalyan köpüklü şərab, premium",
+        "desc_eng": "Italian sparkling wine, premium"
+      }
+    ],
+    "Coktails": [
+      {
+        "nameofArray": "Cocktails"
+      },
+      {
+        "title": "Aperol Spritz",
+        "title_az": "Aperol Spritz",
+        "price": "15 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Long Island (cola/energy drink)",
+        "title_az": "Long Island (kola/enerji içkisi)",
+        "price": "15.00 / 17.00 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Martini Tonic",
+        "title_az": "Martini Tonic",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Mimosa",
+        "title_az": "Mimosa",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Gin & Tonic",
+        "title_az": "Cin və Tonic",
+        "price": "11 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Cuba Libre",
+        "title_az": "Cuba Libre",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Mojito",
+        "title_az": "Mojito",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Tequila Sunrise",
+        "title_az": "Tequila Sunrise",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Bloody Mary",
+        "title_az": "Bloody Mary",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Blue Lagoon",
+        "title_az": "Blue Lagoon",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Sex on the Beach",
+        "title_az": "Sex on the Beach",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Pina Colada",
+        "title_az": "Pina Colada",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Dry Martini",
+        "title_az": "Dry Martini",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Margarita",
+        "title_az": "Margarita",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Cosmopolitan",
+        "title_az": "Cosmopolitan",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Daiquiri",
+        "title_az": "Daiquiri",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Negroni",
+        "title_az": "Negroni",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Whiskey Sour",
+        "title_az": "Whiskey Sour",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "White Russian",
+        "title_az": "White Russian",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Mai-Tai",
+        "title_az": "Mai-Tai",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Old Fashioned",
+        "title_az": "Old Fashioned",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Godfather",
+        "title_az": "Godfather",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Americano",
+        "title_az": "Americano",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Amaretto Sour",
+        "title_az": "Amaretto Sour",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Espresso Martini",
+        "title_az": "Espresso Martini",
+        "price": "13 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Hunter's Sour",
+        "title_az": "Hunter's Sour",
+        "price": "12 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ],
+    "Jack_Daniels_Cocktails": [
+      {
+        "nameofArray": "Jack Daniel’s Cocktails"
+      },
+      {
+        "title": "Popping Jack",
+        "title_az": "Popping Jack",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennessee Old Nº7, Mandarin soda"
+      },
+      {
+        "title": "Jackbread Collins",
+        "title_az": "Jackbread Collins",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennessee Old Nº7, Fresh Lemon juice, Gingerbread syrup, Tonic water"
+      },
+      {
+        "title": "Apple Bergamot Fizz",
+        "title_az": "Apple Bergamot Fizz",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennesse Apple, Fresh lemon juice, Bergamot syrup, Sparkling water"
+      },
+      {
+        "title": "Tennessee Spritz",
+        "title_az": "Tennessee Spritz",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennessee Old Nº7, Jack Daniel's Tennessee Honey, Fresh lemon juice, Cinnamon syrup, Mandarin soda"
+      },
+      {
+        "title": "Bitter Jack",
+        "title_az": "Bitter Jack",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennessee Old Nº7, Amaretto liqueur, Fresh lemon juice, Angostura bitters"
+      },
+      {
+        "title": "Jack Rikki",
+        "title_az": "Jack Rikki",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennessee Honey, Angostura bitters, Tonic water"
+      },
+      {
+        "title": "Apple Lynchburg",
+        "title_az": "Apple Lynchburg",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennessee Old Nº7, Jack Daniel's Tennessee Apple, Fresh lemon juice, Sprite"
+      },
+      {
+        "title": "Honey Boulevardier",
+        "title_az": "Honey Boulevardier",
+        "price": "14 AZN",
+        "desc_az": "",
+        "desc_eng": "Jack Daniel's Tennessee Honey, Red sweet vermouth, Campari"
+      }
+    ],
+    "Shots": [
+      {
+        "nameofArray": "Shots for the Table"
+      },
+      {
+        "title": "Jazzish Shots",
+        "title_az": "Jazzish Shots",
+        "price": "20 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Barman’s Brain",
+        "title_az": "Barman’s Brain",
+        "price": "24 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "DouDou",
+        "title_az": "DouDou",
+        "price": "24 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Snap, Crackle, Drop",
+        "title_az": "Snap, Crackle, Drop",
+        "price": "7 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "B-52",
+        "title_az": "B-52",
+        "price": "9 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "B-55",
+        "title_az": "B-55",
+        "price": "9 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      },
+      {
+        "title": "Hunter",
+        "title_az": "Hunter",
+        "price": "11 AZN",
+        "desc_az": "",
+        "desc_eng": ""
+      }
+    ]
+  }
+}

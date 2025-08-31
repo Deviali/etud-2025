@@ -1,4 +1,4 @@
-import images from "./Menuimages";
+// import images from "./Menuimages";
 
 const SALADS_BRUSCHETTAS = [
   { nameofArray: "Salads & Bruschettas" },
@@ -96,7 +96,7 @@ const BURGERS_SANDWICHES = [
     price: "16.9 AZN",
     desc_az: "Dana əti, bekon, çedar pendiri, xüsusi sous, karamelizə qırmızı soğan, turşu xiyar, pomidor, kahı kartof fri ilə",
     desc_eng: "Beef, bacon, cheddar cheese, special sauce, caramelized red onion, pickle, tomato, lettuce, with french fries",
-    imgUrl: images.burger,
+    imgUrl: "",
   },
   {
     title: "Chicken Burger",

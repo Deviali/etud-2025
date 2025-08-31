@@ -1,6 +1,10 @@
 .Menu{
     padding-bottom: 7vh;
 }
+.menu-language{
+    top: 65vh !important;
+    right: 20vw !important;
+}
 .button-holder{
     padding: 2rem 2rem;
     display: flex;
@@ -52,10 +56,13 @@
     }
     .button{
         width: 30%;
-        font-size: 14px;
+        font-size: 13px;
     }
     .show-Menu{
         margin: 1rem 0;
+    }
+    .menu-language{
+    top: 67vh!important;
     }
 }
 

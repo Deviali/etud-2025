@@ -12,11 +12,15 @@
     position:sticky;
     top: 0;
     left: 0;
-    padding: 0 5rem;
+    padding: 0.5rem 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    background-color: black;
+}
+.button-key-holder{
+    width: 90%;
 }
 .qr-text-size{
     height: 30px;
@@ -125,6 +129,38 @@
     margin-top: 0;
     padding: 0 1rem;
 }
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--font-base);
+    font-size: 22px;
+}
+.language-toggle{
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 6rem;
+    gap: 1rem;
+}
+.language-button{
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-family: var(--font-base);
+}
+.language-button:hover{
+    background-color: var(--color-gold);
+    color: black;
+    transition: ease 0.3s;
+}
+.active-language{
+    background-color: ivory;
+    color: black;
+}
 
 
 
@@ -138,24 +174,29 @@
     .qr-box{
         height: 100px;
     }
+    .language-toggle{
+        right: 10px;
+    }
+    .language-button{
+       padding: 5px 10px;
+       border-radius: 5px;
+    }
     
-
     .button-holders-qr {
         justify-content: flex-start; 
         overflow-x: auto; 
         white-space: nowrap; 
         /* width: 100%;  */
         padding: .5em; 
-        background-color: black;
         scrollbar-width: none !important; /* Firefox */
         -ms-overflow-style: none !important; /* IE and Edge */
     }
     .button-holders-qr .button{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .button {
-        flex: 0 0 calc(28% - 6.66px); 
+        /* flex: 0 0 calc(28% - 6.66px);  */
         box-sizing: border-box; 
     }
 

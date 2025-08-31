@@ -18,7 +18,7 @@ function Location() {
             <p className="h__catorze">Hours & Location</p>
             <p className="p__catorze contacts-highlight">
             Address:<br/>
-             İslam Səfərli 16, Baku, Azerbaijan,<br/>
+             İslam Safarli 16, Baku, Azerbaijan,<br/>
              Working Hours:<br/>
               17:00 – 01:00 (Sunday to Thursday)<br/>
               18:00 – 02:00 (Friday & Saturday)<br/></p>
