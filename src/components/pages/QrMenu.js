@@ -185,7 +185,7 @@ function QrMenu() {
     return a.localeCompare(b); // Alphabetical within same type
   });
 
-  if (loading) return <div className="qr loading">Loading menu. . .</div>;
+  if (loading) return <div className="qr loading">Loading menu . . .</div>;
   if (error) return <div className="qr loading">Error: {error}</div>;
 
   return (

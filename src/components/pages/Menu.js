@@ -130,8 +130,8 @@ function Menu() {
       : categoryData?.[0]?.nameofArray_az || category;
   };
 
-  if (loading) return <div className="Menu">Loading menu...</div>;
-  if (error) return <div className="Menu">Error: {error}</div>;
+  if (loading) return <div className="qr loading">Loading menu . . .</div>;
+  if (error) return <div className="qr loading">Error: {error}</div>;
 
   return (
     <div className="Menu">
