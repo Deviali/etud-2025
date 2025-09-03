@@ -223,6 +223,16 @@
     }
 
 }
+@media screen and (max-width: 400px) {
+    .qr-text p{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 315px) {
+    .qr-text p{
+        font-size: 10px;
+    }
+}
 
 
 
