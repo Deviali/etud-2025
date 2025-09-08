@@ -8,7 +8,7 @@ import { ref, onValue } from "firebase/database";
 function QrMenu() {
   const [categoryMap, setCategoryMap] = useState({});
   const [categoryTypes, setCategoryTypes] = useState({}); 
-  const [selectedCategory, setSelectedCategory] = useState("SaladsBruschettas");
+  const [selectedCategory, setSelectedCategory] = useState("BurgersSandwiches");
   const [menuCategories, setMenuCategories] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
