@@ -193,7 +193,9 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  .button-admin{
+    width: 100% !important;
+  }
   
   .new-item-button {
     background-color: #17a2b8;

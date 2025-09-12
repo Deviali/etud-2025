@@ -164,6 +164,24 @@ function AdminPage() {
     }
   };
 
+  // Handle remove image
+  const handleRemoveImage = async () => {
+    if (!editForm.imgUrl || !window.confirm("Are you sure you want to remove this image?")) {
+      return;
+    }
+
+    try {
+      const imageRef = storageRef(storage, editForm.imgUrl);
+      await deleteObject(imageRef);
+      console.log("Image removed successfully");
+    } catch (error) {
+      console.error("Error removing image:", error);
+    }
+
+    // Clear the imgUrl in the form
+    setEditForm((prev) => ({ ...prev, imgUrl: "" }));
+  };
+
   // Save edited item
   const handleSaveEdit = async (e) => {
     e.preventDefault();
@@ -416,7 +434,7 @@ function AdminPage() {
             {Object.keys(categoryMap).map((category) => (
               <div key={category} className="category-section">
                 <div
-                  className={`button ${selectedCategory === category ? "active-button" : ""}`}
+                  className={`button button-admin${selectedCategory === category ? "active-button button-admin" : ""}`}
                   onClick={() => handleCategoryClick(category)}
                 >
                   {category}
@@ -524,6 +542,13 @@ function AdminPage() {
                     <div className="current-image">
                       <p>Current Image:</p>
                       <img src={editForm.imgUrl} alt="Current" width="100" />
+                      <button
+                        type="button"
+                        className="remove-image-button"
+                        onClick={handleRemoveImage}
+                      >
+                        Remove Photo
+                      </button>
                     </div>
                   )}
                   {saveProgress > 0 && (
