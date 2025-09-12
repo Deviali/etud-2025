@@ -15,6 +15,12 @@ body{
     scrollbar-width: none !important; /* Firefox */
     -ms-overflow-style: none !important; /* IE and Edge */
 }
+@font-face {
+    font-family: "Aldo";
+    src: local("Aldo"),
+      url("./assets/fonts/Aldo.ttf") format("opentype");
+    font-weight: normal;
+  }
 .p__raleway{
     font-family: 'Raleway';
     font-size: 18px;
@@ -29,6 +35,12 @@ body{
     font-family: 'Catorze27Style1-Medium';
     font-size: 30px;
     text-transform: uppercase;
+}
+.p__Aldo{
+    font-family: 'Aldo','serif' !important;
+}
+.fw-15{
+    font-size: 15px !important;
 }
 .button{
     display: flex;

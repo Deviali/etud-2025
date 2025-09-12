@@ -8,7 +8,7 @@ import { ref, onValue } from "firebase/database";
 function QrMenu() {
   const [categoryMap, setCategoryMap] = useState({});
   const [categoryTypes, setCategoryTypes] = useState({}); 
-  const [selectedCategory, setSelectedCategory] = useState("BurgersSandwiches");
+  const [selectedCategory, setSelectedCategory] = useState("SaladsBruschettas");
   const [menuCategories, setMenuCategories] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -22,7 +22,7 @@ function QrMenu() {
     BurgersSandwiches: { eng: "Burgers & Sandwiches", az: "Burgerlər və Sendviçlər" },
     NewItems: { eng: "New Items", az: "Yeni Məhsullar" },
     Snacks_Sets: { eng: "Snacks", az: "Qəlyanaltılar" },
-    "Soft Drinks": { eng: "Soft Drinks", az: "Alkoqolsuz İçkilər" },
+    "SOFTS": { eng: "Soft Drinks", az: "Alkoqolsuz İçkilər" },
     AlcoholicDrinks: { eng: "Alcoholic Drinks", az: "Alkoqollu İçkilər" },
     "WinesProsecco": { eng: "Wines & Prosecco", az: "Şərablar və Prosecco" },
     Cocktails: { eng: "Cocktails", az: "Kokteyllər" },
@@ -73,10 +73,12 @@ function QrMenu() {
             }
           });
           setCategoryMap({
-            ...dynamicCategories,
+            
             SaladsBruschettas:["SALADS_BRUSCHETTAS"],
             BurgersSandwiches:["BURGERS_SANDWICHES"],
             NewItems:["New"],
+            Snacks_Sets:["Snacks_Sets"],
+            ...dynamicCategories,
             AlcoholicDrinks: [
               "Whiskey",
               "Tequila",
@@ -182,7 +184,8 @@ function QrMenu() {
     const typeB = categoryTypes[b] || "food";
     if (typeA === "food" && typeB === "drink") return -1;
     if (typeA === "drink" && typeB === "food") return 1;
-    return a.localeCompare(b); // Alphabetical within same type
+    // return a.localeCompare(b); // Alphabetical within same type
+    return a;
   });
 
   if (loading) return <div className="qr loading">Loading menu . . .</div>;
@@ -219,7 +222,7 @@ function QrMenu() {
       </div>
       <div className="button-holders-qr">
         {sortedCategories.map((category) => (
-          <div key={category} className={`button ${selectedCategory === category ? "active-button" : ""}`}
+          <div key={category} className={`button  p__Aldo fw-15 ${selectedCategory === category ? "active-button  p__Aldo fw-15" : ""}`}
           onClick={() => handleCategoryClick(category)}>
               {getCategoryDisplayName(category)}
           </div>

@@ -124,6 +124,11 @@
     cursor: pointer;
 }
 .qr-service{
+    width: 100vw;
+    position: fixed;
+    bottom: 5px;
+    
+    z-index: 101;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +150,7 @@
     position: absolute;
     top: 25px;
     right: 6rem;
-    gap: 1rem;
+    gap: .25rem;
 }
 .language-button{
     cursor: pointer;
@@ -180,18 +185,21 @@
         align-items: center;
         grid-template-columns: 1fr;
         padding: .5em; 
+        padding-bottom: 1.3em;
     }
     .qr-box{
         height: 100px;
+    }
+    .qr-text h1{
+        font-size: 16px;
     }
     .language-toggle{
         right: 10px;
     }
     .language-button{
-       padding: 5px 10px;
+       padding: 3px 7px;
        border-radius: 5px;
     }
-    
     .button-holders-qr {
         justify-content: flex-start; 
         overflow-x: auto; 
@@ -202,7 +210,7 @@
         -ms-overflow-style: none !important; /* IE and Edge */
     }
     .button-holders-qr .button{
-        font-size: 12px;
+        font-size: 12px !important;
     }
 
     .button {
@@ -223,6 +231,18 @@
     }
 
 }
+@media screen and (max-width:950px) { 
+    .qr-service{
+        background-color: black;
+        left: 0;
+        bottom: 7.5vh;
+    }
+    .qr-service p{
+        margin: 0.5em;
+    }
+}
+
+
 @media screen and (max-width: 400px) {
     .qr-text p{
         font-size: 11px;

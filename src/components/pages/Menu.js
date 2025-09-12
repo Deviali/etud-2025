@@ -152,24 +152,24 @@ function Menu() {
         </button>
       </div>
       <div className="button-holder">
-        <Link to="/qr-menu" className="button">
+        <Link to="/qr-menu" className="button p__Aldo">
           {language === "eng" ? "QR Menu" : "QR Menyu"}
         </Link>
         <div className="row">
           <div
-            className={`button ${selectedCategory === "SaladsBruschettas" ? "active-button" : ""}`}
+            className={`button p__Aldo ${selectedCategory === "SaladsBruschettas" ? "active-button p__Aldo" : ""}`}
             onClick={handleFoodClick}
           >
             {getCategoryDisplayName("SaladsBruschettas")}
           </div>
           <div
-            className={`button ${selectedCategory === "Snacks" ? "active-button" : ""}`}
+            className={`button p__Aldo ${selectedCategory === "Snacks" ? "active-button p__Aldo" : ""}`}
             onClick={handleSnacksClick}
           >
             {getCategoryDisplayName("Snacks")}
           </div>
           <div
-            className={`button ${selectedCategory === "AlcoholicDrinks" ? "active-button" : ""}`}
+            className={`button p__Aldo ${selectedCategory === "AlcoholicDrinks" ? "active-button p__Aldo" : ""}`}
             onClick={handleAlchoClick}
           >
             {getCategoryDisplayName("AlcoholicDrinks")}
@@ -177,20 +177,20 @@ function Menu() {
         </div>
         <div className="row">
           <div
-            className={`button ${selectedCategory === "WinesProsecco" ? "active-button" : ""}`}
+            className={`button p__Aldo ${selectedCategory === "WinesProsecco" ? "active-button p__Aldo" : ""}`}
             onClick={handleWinesClick}
           >
             {getCategoryDisplayName("WinesProsecco")}
           </div>
           <div
-            className={`button ${selectedCategory === "Cocktails" ? "active-button" : ""}`}
+            className={`button p__Aldo ${selectedCategory === "Cocktails" ? "active-button p__Aldo" : ""}`}
             onClick={handleCocktailsClick}
           >
             {getCategoryDisplayName("Cocktails")}
           </div>
         </div>
         <div
-          className={`button ${selectedCategory === "SoftDrinks" ? "active-button" : ""}`}
+          className={`button p__Aldo ${selectedCategory === "SoftDrinks" ? "active-button p__Aldo" : ""}`}
           onClick={handleDrinksClick}
         >
           {getCategoryDisplayName("SoftDrinks")}
@@ -214,10 +214,10 @@ function Menu() {
               // Display regular items
               return (
                 <React.Fragment key={index}>
-                  <p className="p__catorze menu-title">
+                  <p className="p__catorze p__Aldo menu-title">
                     {language === "eng" ? item.title : item.title_az || item.title}
                   </p>
-                  <p className="p__catorze">
+                  <p className="p__catorze  p__Aldo">
                     {language === "eng" ? item.desc_eng : item.desc_az || item.desc_eng} {item.price}
                   </p>
                 </React.Fragment>
