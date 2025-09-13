@@ -23,7 +23,7 @@
     width: 90%;
 }
 .qr-text-size{
-    height: 30px;
+    height: 20px;
     margin-bottom: 0;
 }
 .qr-list{
@@ -39,7 +39,7 @@
     justify-content: space-between;
     background-color: ivory;
     width: 100%;
-    height: 150px;
+    height: 110px;
     color: black;
     cursor: pointer;
 }
@@ -58,10 +58,13 @@
     object-fit: cover; 
 }
 .qr-text{  
-    margin: 0 .5em;
+    margin: 0 .6em;
+}
+.qr-text h1{
+    font-size: 16px;
 }
 .qr-text p{
-    font-size: 17px;
+    font-size: 15px;
 }
 /* Highlight styles */
 .qr-highlight {
@@ -125,9 +128,9 @@
 }
 .qr-service{
     width: 100vw;
+    height: 5vh;
     position: fixed;
-    bottom: 5px;
-    
+    bottom: 0;
     z-index: 101;
     display: flex;
     justify-content: center;
@@ -159,6 +162,7 @@
     color: white;
     border: 1px solid white;
     font-family: var(--font-base);
+    font-size: 10px;
 }
 .language-button:hover{
     background-color: var(--color-gold);
@@ -170,12 +174,15 @@
     color: black;
 }
 .mg-t-0{
-    margin: 1em 0 2em 0;
+    margin: 1.5em 0;
+}
+.mg-z{
+    margin-top: 0;
 }
 
 @media screen and (max-width: 1350px) {
     .qr-text p{
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
@@ -197,7 +204,7 @@
         right: 10px;
     }
     .language-button{
-       padding: 3px 7px;
+       padding: 5px 8px;
        border-radius: 5px;
     }
     .button-holders-qr {
@@ -223,7 +230,6 @@
         height: 60vh; 
     }
     .qr-text p{
-        margin: 0.5em 0;
         font-size: 12px;
     }
     .qr-highlight-box .qr-text p{
@@ -235,7 +241,6 @@
     .qr-service{
         background-color: black;
         left: 0;
-        bottom: 7.5vh;
     }
     .qr-service p{
         margin: 0.5em;
@@ -243,14 +248,26 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .qr-text p{
-        font-size: 11px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:400px) {
+    .button-holders-qr .button {
+        font-size: 9px !important;
+        padding: 0.15rem .75rem 0.25rem .75rem !important;
+    }
+    .qr-text h1 {
+        font-size: 14px;
+    }
+    .qr-text p {
+        font-size: 9px;
     }
 }
 @media screen and (max-width: 315px) {
     .qr-text p{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 

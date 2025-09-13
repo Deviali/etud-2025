@@ -238,10 +238,11 @@ function QrMenu() {
                   <h1 className="p__raleway qr-text-size">
                     {language === "eng" ? item.title : item.title_az}
                   </h1>
-                  <p className={`p__raleway qr-text-size ${item.imgUrl ? "mg-t-0" : ""}`}>
+                  {/* <p className={`p__raleway qr-text-size ${item.imgUrl ? "mg-t-0" : ""}`}> */}
+                  <p className="p__raleway qr-text-size mg-t-0">
                     {truncateDescription(language === "eng" ? item.desc_eng : item.desc_az)}
                   </p>
-                  <p className="p__raleway qr-text-size">{item.price}</p>
+                  <p className="p__raleway qr-text-size mg-z">{item.price}</p>
                 </div>
                 {item.imgUrl && (
                   <div className="qr-img">
