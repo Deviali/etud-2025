@@ -214,7 +214,7 @@ function QrMenu() {
         </div>
       </div>
       <div className="qr-service">
-        <p className="p__raleway">
+        <p className="p__raleway fnt-s-16">
           {language === "eng"
             ? "5% service charge not included"
             : "5% xidmət haqqı qiymətlərə daxil deyildir"}
@@ -222,7 +222,7 @@ function QrMenu() {
       </div>
       <div className="button-holders-qr">
         {sortedCategories.map((category) => (
-          <div key={category} className={`button  p__Aldo fw-15 ${selectedCategory === category ? "active-button  p__Aldo fw-15" : ""}`}
+          <div key={category} className={`button p__Aldo fw-15 ${selectedCategory === category ? "active-button  p__Aldo fw-15" : ""}`}
           onClick={() => handleCategoryClick(category)}>
               {getCategoryDisplayName(category)}
           </div>

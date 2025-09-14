@@ -179,8 +179,11 @@
 .mg-z{
     margin-top: 0;
 }
+.fnt-s-16{
+    font-size: 16px;
+}
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1580px) {
     .qr-text p{
         font-size: 12px;
     }
@@ -253,19 +256,21 @@
         font-size: 10px;
     }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:415px) {
     .button-holders-qr .button {
-        font-size: 9px !important;
-        padding: 0.15rem .75rem 0.25rem .75rem !important;
+        font-size: 11px !important;
     }
     .qr-text h1 {
-        font-size: 14px;
+        font-size: 16px;
     }
     .qr-text p {
-        font-size: 9px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 315px) {
+    .button-holders-qr .button {
+        font-size: 8px !important;
+    }
     .qr-text p{
         font-size: 8px;
     }
